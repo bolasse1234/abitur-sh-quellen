@@ -18,9 +18,10 @@
       "abgerufen": "2026-11-22",
       "geaendert": "2026-11-22",
       "erstmals": "2026-11-22",
-      "status": "ok",
-      "fehler": null,
-      "verlinkt": true
+      "status": "fehler",
+      "fehler": "fetch failed",
+      "verlinkt": true,
+      "fehlerAm": "2026-11-22"
     },
     "za-allg": {
       "titel": "Zentralabitur an allgemeinbildenden Schulen",
@@ -40,9 +41,10 @@
       "abgerufen": "2026-11-22",
       "geaendert": "2026-11-22",
       "erstmals": "2026-11-22",
-      "status": "ok",
-      "fehler": null,
-      "verlinkt": true
+      "status": "fehler",
+      "fehler": "fetch failed",
+      "verlinkt": true,
+      "fehlerAm": "2026-11-22"
     },
     "za-termine": {
       "titel": "Prüfungstermine des Abiturs an allgemeinbildenden Schulen",
@@ -62,9 +64,11 @@
       "abgerufen": "2026-11-22",
       "geaendert": "2026-11-22",
       "erstmals": "2026-11-22",
-      "status": "ok",
-      "fehler": null,
-      "verlinkt": true
+      "status": "fehler",
+      "fehler": "fetch failed",
+      "verlinkt": true,
+      "termine": true,
+      "fehlerAm": "2026-11-22"
     },
     "za-regelungen": {
       "titel": "Fachspezifische Prüfungsregelungen (Abitur, allgemeinbildende Schulen)",
@@ -84,9 +88,20 @@
       "abgerufen": "2026-11-22",
       "geaendert": "2026-11-22",
       "erstmals": "2026-11-22",
-      "status": "ok",
-      "fehler": null,
-      "verlinkt": true
+      "status": "fehler",
+      "fehler": "fetch failed",
+      "verlinkt": true,
+      "entdecke": [
+        {
+          "muster": "zentrale_abschluesse/downloads/(\\d{4})_Abitur_allgembild_Pr[a-z]*regelungen",
+          "typ": "zip",
+          "id": "pruefungsregelungen-$1",
+          "titel": "Fachspezifische Prüfungsregelungen Abitur $1 (ZIP)",
+          "jahr": "$1",
+          "nutzung": "spiegeln"
+        }
+      ],
+      "fehlerAm": "2026-11-22"
     },
     "pruefungsregelungen-2027": {
       "id": "pruefungsregelungen-2027",
@@ -170,7 +185,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "pruefungsregelungen-2028": {
       "id": "pruefungsregelungen-2028",
@@ -241,7 +257,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "pruefungsregelungen-2029": {
       "id": "pruefungsregelungen-2029",
@@ -309,7 +326,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "za-sprachrichtigkeit": {
       "titel": "Beurteilungsbogen zur Feststellung der Sprachrichtigkeit",
@@ -329,9 +347,19 @@
       "abgerufen": "2026-11-22",
       "geaendert": "2026-11-22",
       "erstmals": "2026-11-22",
-      "status": "ok",
-      "fehler": null,
-      "verlinkt": true
+      "status": "fehler",
+      "fehler": "fetch failed",
+      "verlinkt": true,
+      "entdecke": [
+        {
+          "muster": "zentrale_abschluesse/downloads/Abitur_Beurteilungsbogen_Sprachrichtigkeit\\.pdf",
+          "typ": "pdf",
+          "id": "beurteilungsbogen-sprachrichtigkeit",
+          "titel": "Beurteilungsbogen zur Feststellung von gehäuften Verstößen gegen grammatische und orthographische Regeln",
+          "nutzung": "spiegeln"
+        }
+      ],
+      "fehlerAm": "2026-11-22"
     },
     "beurteilungsbogen-sprachrichtigkeit": {
       "id": "beurteilungsbogen-sprachrichtigkeit",
@@ -355,7 +383,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "za-extern": {
       "titel": "Abitur als Externenprüfung",
@@ -375,9 +404,10 @@
       "abgerufen": "2026-11-22",
       "geaendert": "2026-11-22",
       "erstmals": "2026-11-22",
-      "status": "ok",
-      "fehler": null,
-      "verlinkt": true
+      "status": "fehler",
+      "fehler": "fetch failed",
+      "verlinkt": true,
+      "fehlerAm": "2026-11-22"
     },
     "za-aufgaben": {
       "titel": "Prüfungsaufgaben zentral geprüfter Fächer (Abitur, allgemeinbildende Schulen)",
@@ -397,9 +427,20 @@
       "abgerufen": "2026-11-22",
       "geaendert": "2026-11-22",
       "erstmals": "2026-11-22",
-      "status": "ok",
-      "fehler": null,
-      "verlinkt": true
+      "status": "fehler",
+      "fehler": "fetch failed",
+      "verlinkt": true,
+      "entdecke": [
+        {
+          "muster": "zentrale_abschluesse/downloads/(\\d{4})_Abitur_allgembild_Pruefaufgaben",
+          "typ": "link",
+          "id": "pruefungsaufgaben-$1",
+          "titel": "Prüfungsaufgaben Abitur $1 (ZIP, nur verlinkt)",
+          "jahr": "$1",
+          "nutzung": "verlinken"
+        }
+      ],
+      "fehlerAm": "2026-11-22"
     },
     "pruefungsaufgaben-2026": {
       "id": "pruefungsaufgaben-2026",
@@ -421,7 +462,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "pruefungsaufgaben-2025": {
       "id": "pruefungsaufgaben-2025",
@@ -443,7 +485,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "pruefungsaufgaben-2024": {
       "id": "pruefungsaufgaben-2024",
@@ -465,7 +508,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "pruefungsaufgaben-2023": {
       "id": "pruefungsaufgaben-2023",
@@ -487,7 +531,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "pruefungsaufgaben-2022": {
       "id": "pruefungsaufgaben-2022",
@@ -509,7 +554,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "za-bg": {
       "titel": "Zentralabitur an berufsbildenden Schulen",
@@ -529,9 +575,20 @@
       "abgerufen": "2026-11-22",
       "geaendert": "2026-11-22",
       "erstmals": "2026-11-22",
-      "status": "ok",
-      "fehler": null,
-      "verlinkt": true
+      "status": "fehler",
+      "fehler": "fetch failed",
+      "verlinkt": true,
+      "entdecke": [
+        {
+          "muster": "perma\\?j=(BGymV_SH)$",
+          "typ": "juris",
+          "id": "bgvo",
+          "titel": "Landesverordnung über das Berufliche Gymnasium (BGVO)",
+          "kurz": "BGVO",
+          "nutzung": "spiegeln"
+        }
+      ],
+      "fehlerAm": "2026-11-22"
     },
     "bgvo": {
       "id": "bgvo",
@@ -566,7 +623,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "schulrecht-abitur": {
       "titel": "Schulrecht von A bis Z: Abitur",
@@ -586,9 +644,78 @@
       "abgerufen": "2026-11-22",
       "geaendert": "2026-11-22",
       "erstmals": "2026-11-22",
-      "status": "ok",
-      "fehler": null,
-      "verlinkt": true
+      "status": "fehler",
+      "fehler": "fetch failed",
+      "verlinkt": true,
+      "entdecke": [
+        {
+          "muster": "perma\\?j=(GymOAbiPrO_SH)$",
+          "typ": "juris",
+          "id": "oapvo",
+          "titel": "Landesverordnung über die Gestaltung der Oberstufe und der Abiturprüfung in den Gymnasien und Gemeinschaftsschulen (OAPVO)",
+          "kurz": "OAPVO",
+          "nutzung": "spiegeln"
+        },
+        {
+          "muster": "perma\\?j=(WaldorfunSchAbiPrV_SH)$",
+          "typ": "juris",
+          "id": "apvo-ew",
+          "titel": "Landesverordnung über die Abiturprüfung für Externe sowie für Schülerinnen und Schüler an nicht staatlich anerkannten Ersatzschulen und Waldorfschulen (APVO-EW)",
+          "kurz": "APVO-EW",
+          "nutzung": "spiegeln",
+          "ersatzDocId": "jlr-NNLSH00002A8A"
+        },
+        {
+          "muster": "Downloads/Oberstufe2\\.pdf",
+          "typ": "pdf",
+          "id": "broschuere-neue-oberstufe",
+          "titel": "Broschüre „Die neue Oberstufe“ (2. Auflage)",
+          "nutzung": "spiegeln"
+        },
+        {
+          "muster": "Erlasse/Downloads/Profilseminar\\.pdf",
+          "typ": "pdf",
+          "id": "erlass-profilseminar",
+          "titel": "Erlass: Rahmenvorgaben für das Profilseminar in der Qualifikationsphase der Oberstufe",
+          "nutzung": "spiegeln"
+        },
+        {
+          "muster": "Downloads/OAPVO_FAQ\\.pdf",
+          "typ": "pdf",
+          "id": "oapvo-faq",
+          "titel": "FAQ: Belegung von Fächern auf erhöhtem Anforderungsniveau ab 1. August 2025 (Q1) und schriftliche Abiturprüfung ab dem Prüfungsjahr 2027",
+          "nutzung": "spiegeln"
+        },
+        {
+          "muster": "Downloads/Aenderung_APVO_EW\\.pdf",
+          "typ": "pdf",
+          "id": "aenderung-apvo-ew",
+          "titel": "Landesverordnung zur Änderung der APVO-EW",
+          "nutzung": "spiegeln"
+        },
+        {
+          "muster": "Rechtsquellen/Abitur_Brief_M\\.pdf",
+          "typ": "pdf",
+          "id": "brief-unterrichtszeiten-abiturkorrektur",
+          "titel": "Anschreiben der Ministerin: Unterrichtszeiten im Abiturprüfungsjahrgang; Abiturkorrektur in Schuljahren mit frühem Sommerferienbeginn",
+          "nutzung": "spiegeln"
+        },
+        {
+          "muster": "Erlasse/Downloads/Abitur_Erlass\\.pdf",
+          "typ": "pdf",
+          "id": "erlass-staffelmodell-abiturkorrektur",
+          "titel": "Staffelmodell zur Sicherung der Abiturkorrektur bei kurzer Korrekturfrist",
+          "nutzung": "spiegeln"
+        },
+        {
+          "muster": "230801_Erlass_AHR_BOS_\\.pdf",
+          "typ": "pdf",
+          "id": "erlass-ahr-bos",
+          "titel": "Erlass: Erwerb der allgemeinen Hochschulreife an der Berufsoberschule",
+          "nutzung": "spiegeln"
+        }
+      ],
+      "fehlerAm": "2026-11-22"
     },
     "oapvo": {
       "id": "oapvo",
@@ -627,7 +754,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "apvo-ew": {
       "id": "apvo-ew",
@@ -669,7 +797,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "broschuere-neue-oberstufe": {
       "id": "broschuere-neue-oberstufe",
@@ -693,7 +822,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "erlass-profilseminar": {
       "id": "erlass-profilseminar",
@@ -717,7 +847,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "oapvo-faq": {
       "id": "oapvo-faq",
@@ -741,7 +872,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "aenderung-apvo-ew": {
       "id": "aenderung-apvo-ew",
@@ -765,7 +897,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "brief-unterrichtszeiten-abiturkorrektur": {
       "id": "brief-unterrichtszeiten-abiturkorrektur",
@@ -789,7 +922,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "erlass-staffelmodell-abiturkorrektur": {
       "id": "erlass-staffelmodell-abiturkorrektur",
@@ -813,7 +947,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "erlass-ahr-bos": {
       "id": "erlass-ahr-bos",
@@ -837,7 +972,8 @@
       "erstmals": "2026-11-22",
       "status": "ok",
       "fehler": null,
-      "verlinkt": true
+      "verlinkt": false,
+      "nichtMehrVerlinktSeit": "2026-11-22"
     },
     "agvo": {
       "id": "agvo",
@@ -872,9 +1008,10 @@
       "abgerufen": "2026-11-22",
       "geaendert": "2026-11-22",
       "erstmals": "2026-11-22",
-      "status": "ok",
-      "fehler": null,
-      "verlinkt": true
+      "status": "fehler",
+      "fehler": "juris: Dokument für jlr-NNLSH00002A8B nicht geladen",
+      "verlinkt": true,
+      "fehlerAm": "2026-11-22"
     },
     "fachanforderungen": {
       "titel": "Fachanforderungen und Leitfäden (Übersicht)",
@@ -4584,7 +4721,18 @@
       "verlinkt": true
     }
   },
-  "letzterLauf": "2026-11-21T23:23:48.134Z",
+  "letzterLauf": "2026-11-21T23:39:31.624Z",
   "stand": "2026-11-22",
-  "probleme": []
+  "probleme": [
+    "za-start: fetch failed",
+    "za-allg: fetch failed",
+    "za-termine: fetch failed",
+    "za-regelungen: fetch failed",
+    "za-sprachrichtigkeit: fetch failed",
+    "za-extern: fetch failed",
+    "za-aufgaben: fetch failed",
+    "za-bg: fetch failed",
+    "schulrecht-abitur: fetch failed",
+    "agvo: juris: Dokument für jlr-NNLSH00002A8B nicht geladen"
+  ]
 }
