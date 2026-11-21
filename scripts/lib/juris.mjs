@@ -42,6 +42,7 @@ export function extractNorm(html) {
   if (!text) return { html: '', markdown: '', plain: '', anlagen: [] };
   for (const el of text.querySelectorAll('.docLayoutMinMax, .docLayoutMinMaxText, #permalink, .unsichtbar, a[name="DocInhalt"]')) el.remove();
   for (const el of text.querySelectorAll('[style]')) el.removeAttribute('style');
+  for (const el of text.querySelectorAll('a[name]')) if (!el.textContent.trim()) el.remove(); // zufällige Anker (_XY_…)
   for (const el of text.querySelectorAll('a[href^="#"]')) el.replaceWith(document.createTextNode(el.textContent));
   for (const el of text.querySelectorAll('a[href^="/"]')) el.setAttribute('href', BASE + el.getAttribute('href'));
   for (const el of text.querySelectorAll('a[title]')) el.removeAttribute('title');

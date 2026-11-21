@@ -269,6 +269,8 @@ async function doJuris(q, parent) {
   }
   if (!r.teile.length) throw new Error('juris: keine Gliederungseinheiten erhalten');
   const { anlagenDateien, ...save } = r;
+  // HTML enthält zufällige Anker-IDs (_XY_…) → nicht speichern, sonst Änderungsrauschen
+  save.teile = save.teile.map(({ html, ...t }) => t);
   writeJson(p(`snapshots/juris/${q.id}.json`), save);
   for (const d of Object.values(index.dokumente)) if (d.quelle === q.id) d.verlinkt = false;
   const docIds = [];
