@@ -1,0 +1,40 @@
+:root{--paper:#f6f3ec;--card:#fffdf8;--ink:#1f1d19;--muted:#5d5a52;--line:#ddd6c6;--accent:#214a3c;--accent-2:#8a5a12;--note:#fff1c7;--note-line:#d9b54a;--quote:#f0ece1;--warn:#9a3412;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#171612;--card:#1e1d18;--ink:#ece7dc;--muted:#aaa395;--line:#38352d;--accent:#8fc9b0;--accent-2:#e0b56a;--note:#3a3115;--note-line:#8a7322;--quote:#24221c;--warn:#f0a07a;color-scheme:dark}}
+:root[data-theme="dark"]{--paper:#171612;--card:#1e1d18;--ink:#ece7dc;--muted:#aaa395;--line:#38352d;--accent:#8fc9b0;--accent-2:#e0b56a;--note:#3a3115;--note-line:#8a7322;--quote:#24221c;--warn:#f0a07a;color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:16.5px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:var(--accent);text-underline-offset:2px;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+a.ext::after{content:"↗";font-size:.75em;margin-left:.15em;opacity:.7}
+.banner{background:var(--note);border-bottom:1px solid var(--note-line);padding:.55rem 16px;font-size:.92rem;text-align:center}
+.banner .stand{font-weight:600;white-space:nowrap}
+header.site{max-width:1080px;margin:0 auto;padding:1rem 16px .6rem;display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;align-items:baseline;justify-content:space-between;border-bottom:2px solid var(--ink)}
+.brand{font-family:Charter,"Bitstream Charter","Iowan Old Style",Georgia,serif;font-size:1.45rem;font-weight:700;color:var(--ink);text-decoration:none;letter-spacing:-.01em}
+.brand span{font-weight:400;color:var(--muted)}
+nav{display:flex;flex-wrap:wrap;gap:.2rem .9rem;font-size:.95rem}
+nav a{color:var(--ink);text-decoration:none;border-bottom:2px solid transparent;padding-bottom:1px}
+nav a:hover,nav a[aria-current]{border-bottom-color:var(--accent-2)}
+main{max-width:1080px;margin:0 auto;padding:1.4rem 16px 3rem}
+h1,h2,h3,h4{font-family:Charter,"Bitstream Charter","Iowan Old Style",Georgia,serif;line-height:1.25;letter-spacing:-.01em;margin:1.8em 0 .55em}
+h1{font-size:clamp(1.6rem,4vw,2.2rem);margin-top:.3em}
+h2{font-size:1.45rem;border-top:1px solid var(--line);padding-top:1rem}
+h3{font-size:1.15rem}
+h4{font-size:1.02rem}
+.anchor{float:left;margin-left:-1.1em;width:1em;color:var(--muted);text-decoration:none;opacity:0;font-weight:400}
+h1:hover .anchor,h2:hover .anchor,h3:hover .anchor,h4:hover .anchor{opacity:.6}
+p,ul,ol{max-width:78ch}
+li{margin:.3em 0}
+blockquote{margin:.45rem 0 .9rem;padding:.55rem .9rem;background:var(--quote);border-left:3px solid var(--accent-2);max-width:78ch;font-size:.95rem}
+blockquote p{margin:.2em 0}
+table{border-collapse:collapse;margin:1rem 0;font-size:.93rem;display:block;overflow-x:auto;max-width:100%}
+th,td{border:1px solid var(--line);padding:.4rem .6rem;text-align:left;vertical-align:top}
+th{background:var(--card);font-weight:600}
+tr:nth-child(even) td{background:color-mix(in srgb,var(--card) 60%,transparent)}
+code{font:0.88em ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:var(--quote);padding:.05em .3em;border-radius:3px;overflow-wrap:anywhere}
+pre.doc{white-space:pre-wrap;overflow-wrap:anywhere;font:0.86rem/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:var(--card);border:1px solid var(--line);padding:1rem;border-radius:4px;max-width:100%}
+hr{border:0;border-top:1px solid var(--line);margin:2rem 0}
+footer.site{max-width:1080px;margin:0 auto;padding:1.2rem 16px 2.5rem;border-top:2px solid var(--ink);font-size:.9rem;color:var(--muted)}
+footer.site p{max-width:none}
+@media (max-width:640px){body{font-size:16px}h2{font-size:1.3rem}.anchor{display:none}}
+@media print{.banner{border:1px solid #000}nav,footer.site p+p{display:none}}

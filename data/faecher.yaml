@@ -127,16 +127,20 @@ faecher:
             zitat:
               - "Dieser Prüfungsteil wird gemäß der gültigen 'Checkliste zur Genehmigung' dezentral durch die Fachlehrkraft erstellt"
               - "Die Prüfungsaufgaben für den Prüfungsteil Schreiben werden gemäß gültiger Checkliste zur Genehmigung dezentral durch die Fachlehrkraft erstellt."
-      - titel: Hilfsmittel (moderne Fremdsprachen)
+      - titel: Hilfsmittel (Englisch, Kern- und Profilfach)
         niveau: [eA, gA]
-        dok: { 2027: eng-kf-pf-hilfsmittel-im }
+        dok: { 2027: eng-kf-pf-hilfsmittel-im, 2028: pruefungsregelungen-eng-kernfach-en, 2029: pruefungsregelungen-eng-kernfach-en }
         fakten:
           - thema: Wörterbücher
             wert: Ein- und zweisprachiges Wörterbuch für Textaufgabe und Sprachmittlung; kein Thesaurus
-            zitat: "Ein Thesaurus darf nicht zur Verfügung gestellt werden (weder in gedruckter Form noch als Funktion eines elektronischen Wörterbuchs)."
+            zitat:
+              - "Ein Thesaurus darf nicht zur Verfügung gestellt werden (weder in gedruckter Form noch als Funktion eines elektronischen Wörterbuchs)."
+              - "Ein Thesaurus darf nicht zur Verfügung gestellt werden."
           - thema: Sprechprüfung
             wert: Keine Hilfsmittel
-            zitat: "Für den Prüfungsteil Sprechen im Fach Englisch sind keine Hilfsmittel zugelassen."
+            zitat:
+              - "Für den Prüfungsteil Sprechen im Fach Englisch sind keine Hilfsmittel zugelassen."
+              - "Für den Prüfungsteil Sprechen sind keine Hilfsmittel zugelassen."
 
   - slug: franzoesisch
     name: Französisch

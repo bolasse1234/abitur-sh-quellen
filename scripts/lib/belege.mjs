@@ -184,3 +184,21 @@ export function pruefeAlles() {
   }
   return { faecher: fd, themen: td, index, report, jahre };
 }
+
+/** Prüft die redaktionellen Hinweise (data/hinweise.yaml). */
+export function pruefeHinweise(index) {
+  const hd = readYaml(p('data/hinweise.yaml'));
+  for (const h of hd.hinweise) {
+    for (const b of h.belege || []) {
+      if (b.dok) b._beleg = index.dokumente[b.dok] ? findInDoc(b.dok, b.zitat) : { status: 'dokument-fehlt' };
+      else {
+        const q = index.quellen[b.quelle];
+        if (!q) b._beleg = { status: 'quelle-fehlt' };
+        else if (q.typ === 'juris') b._beleg = findInJuris(b.quelle, b.teil, b.zitat);
+        else if (q.typ === 'seite') b._beleg = findInSeite(b.quelle, b.zitat);
+        else b._beleg = findInDoc(b.quelle, b.zitat);
+      }
+    }
+  }
+  return hd.hinweise;
+}

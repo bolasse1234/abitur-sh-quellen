@@ -1,0 +1,69 @@
+# Redaktionelle Hinweise zu Lücken, Unklarheiten und nebeneinanderstehenden Angaben.
+# Jeder Hinweis wird mit wörtlichen Belegen aus den Originalen gestützt (werden beim Build geprüft).
+# Automatisch erkannte Lücken (fehlende Dokumente, fehlerhafte PDF-Textebenen, Abruffehler)
+# ergänzt build.mjs selbst.
+#
+# beleg: { quelle: <Quellen-ID>, teil: "§ 20" }  oder  { dok: <Dokument-ID> }  plus  zitat
+
+hinweise:
+  - id: sprechpruefung-dauer
+    typ: Unterschiedliche Angaben
+    titel: Dauer der Sprechprüfung (Englisch) – mehrere Zeitangaben nebeneinander
+    text: >-
+      Für die Sprechprüfung im Fach Englisch nennen die Unterlagen verschiedene Zeitangaben: einen
+      „Umfang von 30 Minuten“ für den Prüfungsteil Sprechen, eine Prüfdauer von 20 Minuten bei Partner-
+      und 30 Minuten bei Dreierprüfungen sowie in der OAPVO „etwa zehn Minuten je Prüfling“. Diese
+      Seite wertet nicht aus, wie die Angaben zusammenhängen. Maßgeblich sind die Originale.
+    belege:
+      - dok: 2027-englisch-eng-kf-erhoehtes-niveau-pruefungsregelungen
+        zitat: "einem Prüfungsteil Sprechen im Umfang von 30 Minuten."
+      - dok: 2027-englisch-eng-kf-erhoehtes-niveau-pruefungsregelungen
+        zitat: "Die Prüfdauer bei Partnerprüfungen beträgt 20 Minuten, bei Dreierprüfungen 30 Minuten."
+      - quelle: oapvo
+        teil: "§ 20"
+        zitat: "Sie dauert etwa zehn Minuten je Prüfling"
+
+  - id: termine-vorbehalt
+    typ: Hinweis
+    titel: Prüfungstermine stehen unter Vorbehalt
+    text: >-
+      Die Landesseite kennzeichnet die Termintabellen jeweils mit einem eigenen Stand und dem Zusatz
+      „vorbehaltlich möglicher Änderungen“. Vor Prüfungen immer die Originalseite prüfen.
+    belege:
+      - quelle: za-termine
+        zitat: "Stand: 24. Juli 2025, vorbehaltlich möglicher Änderungen"
+
+  - id: berufliches-gymnasium
+    typ: Lücke
+    titel: Berufliche Gymnasien nur teilweise abgedeckt
+    text: >-
+      Für das Abitur an Beruflichen Gymnasien verweist die Landesseite auf die BGVO und auf ein
+      „Dokumentarchiv für berufsbildende Schulen“ (Cloud-Freigabe). Die BGVO wird hier gespiegelt; die
+      fachspezifischen Unterlagen des Dokumentarchivs sind nicht ausgewertet.
+    belege:
+      - quelle: za-bg
+        zitat: "Dokumentarchiv für berufsbildende Schulen"
+      - quelle: za-start
+        zitat: "Neben den landesweit zentralen Prüfungen in den Bereichen Mathematik, Deutsch, Englisch und Naturwissenschaften werden dezentrale Prüfungen für die beruflichen Fachrichtungen erstellt."
+
+  - id: fachanforderungen-neu
+    typ: Hinweis
+    titel: Neue Fachanforderungen (Englisch, Französisch, Spanisch) in Anhörung
+    text: >-
+      Das Fachportal nennt Anhörungsfassungen neuer Fachanforderungen. Laut Fachportal ist eine
+      Inkraftsetzung zum Schuljahr 2027/28 aufwachsend geplant. Für die Abiturjahrgänge auf dieser
+      Seite gelten die in den jeweiligen Prüfungsregelungen genannten Fachanforderungen.
+    belege:
+      - quelle: fachanforderungen
+        zitat: "Es ist geplant, die überarbeiteten Fachanforderungen zum Beginn des Schuljahres 2027/28 aufwachsend für die jeweilige Jahrgangsstufe, in der das Fach beginnt, in Kraft zu setzen."
+
+  - id: gA-naturwissenschaften
+    typ: Hinweis
+    titel: Grundlegendes Niveau in Biologie, Chemie, Physik nur nach APVO-EW
+    text: >-
+      Die Prüfungsregelungen für Biologie, Chemie und Physik beschreiben eine schriftliche Prüfung auf
+      grundlegendem Niveau ausdrücklich nur für die Abiturprüfung gemäß APVO-EW (Externe, nicht staatlich
+      anerkannte Ersatzschulen, Waldorfschulen), mit dezentral gestellten Aufgaben.
+    belege:
+      - dok: 2027-biologie-pruefungsregelungen-biologie
+        zitat: "In der Abiturprüfung gemäß APVO-EW kann eine schriftliche Prüfung im Fach Biologie auf grundlegendem Niveau stattfinden."

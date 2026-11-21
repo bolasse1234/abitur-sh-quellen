@@ -99,7 +99,7 @@ export async function fetchPage(url) {
 
 /** Liest Tabellen „Prüfungstermine JJJJ“ aus dem HTML der Terminseite. */
 export function parseTermine(html) {
-  const { document } = parseHTML(html);
+  const { document } = parseHTML(html.replace(/<br\s*\/?>/gi, ' '));
   const out = [];
   for (const h of document.querySelectorAll('h2, h3')) {
     const m = h.textContent.match(/Prüfungstermine\s+(\d{4})/);

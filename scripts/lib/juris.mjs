@@ -63,17 +63,18 @@ function headInfo(head) {
   const { document } = parseHTML(`<div>${head || ''}</div>`);
   const map = {};
   for (const tr of document.querySelectorAll('tr')) {
-    const k = tr.querySelector('th')?.textContent.replace(/[:\s]+$/g, '').trim();
+    const k = tr.querySelector('th')?.textContent.replace(/\u00a0/g, ' ').replace(/[:\s]+$/g, '').trim();
     const v = tr.querySelector('td')?.textContent.replace(/\s+/g, ' ').trim();
     if (k && v) map[k] = v;
   }
+  const g = (label) => Object.entries(map).find(([k]) => k.replace(/\s+/g, ' ').includes(label))?.[1] || null;
   return {
-    amtlicheAbkuerzung: map['Amtliche Abkürzung'] || null,
-    ausfertigungsdatum: map['Ausfertigungsdatum'] || null,
-    gueltigAb: map['Gültig ab'] || null,
-    dokumenttyp: map['Dokumenttyp'] || null,
-    fundstelle: map['Fundstelle'] || null,
-    gliederungsNr: map['Gliederungs-Nr'] || null,
+    amtlicheAbkuerzung: g('Abkürzung'),
+    ausfertigungsdatum: g('Ausfertigungsdatum'),
+    gueltigAb: g('Gültig ab'),
+    dokumenttyp: g('Dokumenttyp'),
+    fundstelle: g('Fundstelle'),
+    gliederungsNr: g('Gliederungs'),
   };
 }
 

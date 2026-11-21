@@ -1,0 +1,81 @@
+name: Quellen aktualisieren
+
+# Ruft wöchentlich alle offiziellen Quellen neu ab, prüft alle Zitate und
+#  - committet direkt auf main und deployt, wenn alle Belege bestätigt sind,
+#  - öffnet sonst einen Pull Request mit dem Prüfbericht (manuelle Durchsicht nötig).
+on:
+  schedule:
+    - cron: "17 4 * * 1"   # montags 04:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      HAS_CF: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Werkzeuge installieren (pdftotext, unzip)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils unzip
+      - run: npm ci
+      - name: Quellen abrufen
+        id: fetch
+        env:
+          CHROME_PATH: /usr/bin/google-chrome
+        run: |
+          set +e
+          npm run fetch 2>&1 | tee fetch.log
+          echo "exit=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+      - name: Belege prüfen
+        id: verify
+        run: |
+          set +e
+          npm run verify 2>&1 | tee verify.log
+          echo "exit=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+      - name: Seite bauen
+        run: npm run build
+      - name: Änderungen?
+        id: diff
+        run: |
+          git add -A snapshots public data
+          if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; else echo "changed=true" >> "$GITHUB_OUTPUT"; fi
+      - name: Direkt übernehmen (alle Belege ok)
+        if: steps.diff.outputs.changed == 'true' && steps.verify.outputs.exit == '0'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Quellen aktualisiert ($(date -u +%Y-%m-%d))"
+          git push
+          echo "deploy=true" >> "$GITHUB_ENV"
+      - name: Pull Request (Belege prüfen!)
+        if: steps.diff.outputs.changed == 'true' && steps.verify.outputs.exit != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BR="update/$(date -u +%Y-%m-%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BR"
+          git commit -m "Quellen aktualisiert ($(date -u +%Y-%m-%d)) – Belege prüfen"
+          git push -u origin "$BR"
+          { echo "Automatischer Abruf: Mindestens ein Zitat wurde im aktuellen Originaltext nicht mehr gefunden."; echo; echo '```'; cat verify.log; echo '```'; echo; echo "Bitte data/*.yaml anpassen (siehe README → Aktualisieren) und danach mergen."; } > pr.md
+          gh pr create --title "Quellen aktualisiert – Belege prüfen" --body-file pr.md --head "$BR" --base main
+      - name: Deployen
+        if: env.deploy == 'true' && env.HAS_CF == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler deploy
