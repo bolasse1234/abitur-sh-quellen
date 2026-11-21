@@ -1,0 +1,157 @@
+Mindestanforderungen an einen nicht programmierbaren und nicht graphikfähigen
+wissenscha lichen Taschenrechner in den Abiturprüfungen ab 2015
+vom August 2012 (in der Fassung vom Juli 2017)
+
+
+
+
+Allg.:
+        Standardfunk onen wie z.B. Rechnen mit Brüchen, Potenzen, Wurzeln,
+         trigonometrische Funk onen, Exponen alfunk on, Logarithmen
+        Lösen von linearen, quadra schen und kubischen Gleichungen
+        Lösen von eindeu g lösbaren Gleichungssystemen (2x2 und 3x3)
+        Berechnen von Funk onswerten einer mit Variablen vorgegebenen Funk on (CALC-
+         Taste o.ä.) und Anfer gung einer Wertetabelle (unter Vorgabe des Intervalls und der
+         Schri länge)
+                                                                    n
+        Summenbildung (Berechnung endlicher Summen der Form ∑ …)
+                                                                   i=1
+
+        Numerisches Lösen von Gleichungen nach Eingabe eines Startwerts
+
+Analysis:
+        Numerische Berechnung von Ableitungswerten (einer gegebenen Funk on an einer
+         bes mmten Stelle)
+        Numerische Berechnung von Integralen (bei gegebenem Integranden und
+         vorgegebenen Grenzen)
+
+Analy sche Geometrie:
+        Skalarprodukt und Kreuzprodukt von Vektoren
+
+Stochas k:
+        Berechnung von Mi elwert und Standardabweichung bei eingegebenen Urlisten
+        Fakultäten
+        Berechnung von Binomialkoeﬃzienten (nCr – Taste)
+        Berechnung von Permuta onen (nPr - Taste)
+        Berechnung von (kumulierten) Binomialverteilungen (auch für große n und k, z.B.
+         n=1000, k=440)
+        Berechnung von (kumulierten) Normalverteilungen und inversen Normalverteilungen
+
+
+
+
+                                                                                           1
+Vorgaben für den CAS-Einsatz in der schri lichen Abiturprüfung
+
+
+
+Soll in einer Prüfgruppe der schri lichen Abiturprüfung ein Computer-Algebra-System (CAS)
+zum Einsatz kommen, so hat die unterrichtende Lehrkra die ministerielle Fachaufsicht zu
+Beginn der Qualiﬁka onsphase unter Verwendung des anliegenden Formbla s auf dem
+Dienstweg zu informieren.
+Diese Mi eilung hat zur Folge, dass die Prüﬂinge der Prüfgruppe Prüfungsaufgaben erhalten,
+die auf die Verwendung eines CAS hin konzipiert sind.
+Bei der Durchführung einer schri lichen Abiturprüfung mit einem CAS sind folgende Punkte
+zu beachten.
+      Beispielaufgaben oder andere Dateien, die von der eingesetzten So ware oder für
+       diese erstellt wurden, sind zu löschen oder unzugänglich zu machen. Es ist für eine
+       hinreichende Anzahl von Ersatzgeräten zu sorgen.
+      Handbücher und selbst erstellte Bedienungshilfen dürfen nicht verwendet werden.
+       Ebenso darf keine weitere So ware als die angegebene eingesetzt werden.
+      Die Schule stellt sicher, dass die benutzten Geräte isoliert arbeiten und nicht mit
+       anderen Geräten kommunizieren können. Sie dürfen insbesondere weder auf das
+       Intra- noch auf das Internet zugreifen können. Darüber hinaus dürfen keine externen
+       Datenträger eingesetzt werden. Eine Ausnahme bilden von der Schule ausgegebene
+       Datenträger, wenn es technisch sichergestellt ist, dass auf die in den Geräten
+       eingebauten Datenträger nicht zugegriﬀen werden kann. Eine solche technische
+       Lösung muss von der Schulaufsicht genehmigt werden.
+      Die textliche Dokumenta on der Problemlösung durch die Schülerin oder den Schüler
+       muss in der Reinschri so angelegt sein, dass der Gedankengang der Problemlösung
+       und deren Durchführung vollständig nachvollziehbar ist. Die Dokumenta on ist
+       Bestandteil der Problemlösung und geht in die Bewertung der Prüfungsleistung ein.
+      Computerausdrucke sind als Bestandteil der Dokumenta on nicht zugelassen. Dies
+       gilt auch für den Ausdruck von Graﬁken.
+      Mathema sche Objekte wie z.B. Terme müssen in der üblichen mathema schen
+       Nota on und nicht in der evtl. abweichenden Form der Bildschirmanzeige angegeben
+       werden.
+      Im Verlaufe der Prüfung vom Schüler bzw. von der Schülerin erstellte und ggf.
+       gespeicherte Dateien dürfen nicht zur Korrektur oder Bewertung herangezogen
+       werden.
+      Die verwendete Technologie muss in den Prüfungsakten vom Prüfer bzw. von der
+       Prüferin vermerkt werden.
+
+
+                                                                                            2
+Schuladresse
+
+
+
+
+An das
+Ministerium für Allgemeine und Beruﬂiche Bildung,
+Wissenscha , Forschung und Kultur des
+Landes Schleswig-Holstein
+– Fachaufsicht Mathema k –
+
+
+Mi eilung über den Einsatz eines Computer-Algebra-Systems im Unterricht und damit in
+der schri lichen Abiturprüfung 20…. im Fach Mathema k
+
+
+Sehr geehrte Damen und Herren,
+
+
+hiermit informiere ich Sie über den Einsatz eines Computer-Algebra-Systems (CAS) im
+Unterricht und damit in der schri lichen Abiturprüfung 20…. im Fach Mathema k. Dazu
+mache ich die folgenden Angaben:
+
+
+
+ Lerngruppe:
+ Anzahl der Schülerinnen und Schüler:
+ unterrichtende Lehrkra im Einführungsjahr:
+ unterrichtende Lehrkra im ersten Jahr der
+ Qualiﬁka onsphase:
+
+
+ Im Unterricht und im Abitur soll die folgende CAS-Technologie verwendet werden (bi e
+ die genaue Hard- und So ware-Konﬁgura on angeben, in der sich die Geräte
+ voraussichtlich während der Prüfung beﬁnden werden):
+
+
+
+
+                                                                                        3
+ Die Schülerinnen und Schüler der Prüfgruppe
+ □ verwenden in der Abiturprüfung eigene Geräte.
+ □ verwenden in der Abiturprüfung von der Schule gestellte Geräte.
+
+
+Die Schülerinnen und Schüler wurden von mir darüber informiert, dass sie im der
+schri lichen Abiturprüfung spezielle Aufgaben für die Bearbeitung mit einem CAS erhalten.
+Die Hinweise zur Durchführung einer schri lichen Abiturprüfung mit einem CAS werde ich
+beachten.
+Nach Prüfung versichere ich, dass die Aufgaben der schri lichen Abiturprüfung der
+vergangenen drei Jahre mit dem vorgesehenen Gerät lösbar sind.
+
+
+Über wesentliche technische Änderungen (z.B. Herstellerwechsel) werde ich die ministerielle
+Fachaufsicht informieren.
+
+
+
+
+__________________________                              ___________________________
+Ort, Datum                                              Unterschri der Lehrkra
+
+
+
+
+__________________________                              ___________________________
+Ort, Datum                                              Unterschri der Schulleitung
+
+
+
+
+                                                                                            4
+

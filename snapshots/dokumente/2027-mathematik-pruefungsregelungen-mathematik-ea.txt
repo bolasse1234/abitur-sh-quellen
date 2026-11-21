@@ -1,0 +1,252 @@
+Regelungen für die Abiturprüfung im Fach Mathematik für das Jahr 2027 auf erhöhtem
+Anforderungsniveau
+(Stand 25.03.2025)
+
+Schriftliche Abiturprüfung auf erhöhtem Anforderungsniveau
+Auf der Grundlage der Bildungsstandards für die Allgemeine Hochschulreife und der
+Fachanforderungen werden die folgenden Regelungen für die Abiturprüfung im Fach
+Mathematik getroffen:
+1 Fachliche Qualifikationen
+Die Abituraufgaben werden so gestellt, dass ihre Bearbeitung den Nachweis der in den
+Fachanforderungen beschriebenen Kompetenzen erfordert. Die Aufgaben beziehen sich auf
+die drei in den Fachanforderungen genannten Sachgebiete Analysis, Analytische Geometrie
+und Stochastik. Je nach Aufgabenart und Aufgabenstellung können unterschiedliche Akzente
+gesetzt werden.
+2 Schriftliche Abiturprüfung
+Die schriftliche Abiturprüfung auf erhöhtem Anforderungsniveau wird mit zentral erstellten
+Aufgaben durchgeführt.
+2.1 Struktur der Prüfungsaufgabe
+Die Prüfungsaufgabe besteht aus zwei Teilen: einem hilfsmittelfreien Teil (Teil A) und einem
+Teil mit komplexen Aufgabenstellungen (Teil B).
+Der hilfsmittelfreie Teil wird von den Prüflingen ohne digitale Mathematikwerkzeuge (z.B.
+Taschenrechner, Software) sowie ohne Formelsammlung bearbeitet. Die komplexen
+Aufgaben werden von den Prüflingen mit einer Ihnen zur Verfügung gestellten
+mathematisch-naturwissenschaftlichen Formelsammlung der KMK und einem
+wissenschaftlichen Taschenrechner gelöst. Alternativ erhält die Schule auf Antrag und nach
+Genehmigung durch das MBWFK Aufgaben zur Bearbeitung mit einem Computer-AlgebraSystem.
+2.2 Art und Umfang der Aufgaben
+Die Aufgaben folgen den Vorgaben der Fachanforderungen. Sie geben dem Prüfling
+Gelegenheit, ein möglichst breites Spektrum an Kompetenzen und Qualifikationen
+nachzuweisen oder anzuwenden. Zu den Vorgaben für die Verwendung von Operatoren bei
+der Aufgabenformulierung siehe das Dokument Operatoren im Fach Mathematik.
+Die Aufgaben des hilfsmittelfreien Teils sowie die komplexen Aufgaben beziehen sich auf die
+Sachgebiete Analysis, Analytische Geometrie und Stochastik. Der hilfsmittelfreie
+1
+
+Aufgabenteil und die komplexen Aufgaben decken jeweils alle Anforderungsbereiche ab. Bei
+den komplexen Aufgaben sind sachgebietsübergreifende Aufgabenteile möglich, die den
+Schwerpunkt der Aufgabe jedoch nicht verändern.
+Teil A der Prüfungsaufgabe: Die Schule erhält zehn hilfsmittelfreie Aufgaben, davon vier
+Aufgaben, deren Anforderungen den Anforderungsbereichen I und II zuzuordnen sind.
+(Aufgabengruppe 1). Zwei dieser vier Aufgaben beziehen sich auf die Analysis und je eine
+Aufgabe auf die Analytische Geometrie und die Stochastik. Ferner erhält die Schule sechs
+hilfsmittelfreie Aufgaben, deren Anforderungen in Teilen im Anforderungsbereich III liegen
+(Aufgabengruppe 2); je zwei dieser Aufgaben beziehen sich auf die Analysis, die Analytische
+Geometrie und die Stochastik.
+Für den Teil B der Prüfungsaufgabe mit komplexen Aufgabenstellungen erhält die Schule
+jeweils zwei Analysis-Aufgaben, zwei Aufgaben zur Analytischen Geometrie und zwei
+Stochastik-Aufgaben. Die komplexen Prüfungsaufgaben sind so angelegt, dass die Summen
+der Bewertungseinheiten in den Anforderungsbereichen I, II und III innerhalb von
+Bandbreiten liegen; Anforderungsbereich I: 20 % bis 30 %, Anforderungsbereich II: 40 % bis
+55 %, Anforderungsbereich III: 25 % bis 35 % der gesamten Bewertungseinheiten einer
+Aufgabe.
+2.3 Durchführung der Prüfung
+Auswahl der Aufgaben:
+Den Prüflingen werden alle zehn hilfsmittelfreien Aufgaben vorgelegt. Sie sind verpflichtet,
+in der Prüfung alle vier Aufgaben der Aufgabengruppe 1 zu bearbeiten. Ferner wählen sie
+zwei der sechs Aufgaben der Aufgabengruppe 2 zur Bearbeitung aus. Die gewählten
+Aufgaben dürfen im selben Sachgebiet liegen. Die Prüflinge kennzeichnen die gewählten und
+bearbeiteten Aufgaben auf einem Auswahlbogen, der mit den Aufgaben ausgegeben wird. In
+der Summe bearbeiten die Prüflinge somit sechs hilfsmittelfreie Aufgaben. Jede Aufgabe des
+hilfsmittelfreien Teils ist auf 5 Bewertungseinheiten ausgelegt; für den hilfsmittelfreien Teil
+sind insgesamt bis zu 110 Minuten (inklusive Einlese- und Auswahlzeit) vorgesehen.
+Für den Teil B wählt die Abiturprüfungskommission auf Vorschlag der jeweiligen
+Prüfungslehrkraft aus den Sachgebieten Analysis und Stochastik jeweils eine der beiden
+Aufgaben aus, die von den Prüflingen zu bearbeiten ist. Die zwei Aufgaben des Sachgebiets
+Analytische Geometrie werden den Prüflingen zur Auswahl vorgelegt. Infolge der
+Auswahlmöglichkeit im Teil B verlängert sich die Prüfungszeit um 30 Minuten. Die Prüflinge
+kennzeichnen die von Ihnen gewählte und bearbeitete Aufgabe auf einem zweiten
+Auswahlbogen, der mit den Aufgaben ausgegeben wird.
+Insgesamt bearbeiten die Prüflinge somit drei komplexe Aufgaben. Die Analysisaufgabe ist
+auf 30 Bewertungseinheiten ausgelegt, die Aufgaben der Analytischen Geometrie und der
+Stochastik auf jeweils 20 Bewertungseinheiten. Für die drei von den Schülerinnen und
+Schülern zu bearbeitenden Aufgaben im Teil B sind zusammen 220 Minuten vorgesehen.
+2
+
+Zeitlicher Ablauf:
+Zu Beginn der Prüfung erhalten die Prüflinge alle Aufgaben, sowohl für den Prüfungsteil A als
+auch für den Prüfungsteil B. Sie bearbeiten zunächst den hilfsmittelfreien Aufgabenteil. Nach
+der Abgabe dieses Teils (inklusive der nicht gewählten Aufgaben und einem Bogen, auf dem
+die Auswahl der gewählten und bearbeiteten Aufgaben der Aufgabengruppe 2 kenntlich
+gemacht ist) erhalten sie die mathematisch-naturwissenschaftliche Formelsammlung der
+KMK und das digitale Mathematikwerkzeug (Taschenrechner bzw. CAS).
+110 Minuten nach Prüfungsbeginn wird von allen Prüflingen, die noch nicht abgegeben
+haben, der hilfsmittelfreie Aufgabenteil eingesammelt. Eine Mindestbearbeitungszeit für den
+Teil A ist nicht vorgegeben.
+Innerhalb der vorgegebenen 110 Minuten für den Teil A können die Prüflinge bereits mit der
+Bearbeitung von Aufgaben des Teils B beginnen. Solange sie noch Unterlagen zu Teil A
+haben, müssen sie ohne Hilfsmittel arbeiten. Geben Prüflinge den hilfsmittelfreien Teil A
+vorzeitig ab, verlängert sich ihre Zeit zur Bearbeitung des Teils B, und zwar mit Hilfsmitteln.
+Insgesamt stehen 330 Minuten für die schriftliche Abiturprüfung zur Verfügung. Der
+Zeitpunkt der Abgabe des hilfsmittelfreien Aufgabenteils ist für jeden Prüfling im Protokoll zu
+vermerken. Eine Rückgabe und erneute Bearbeitung des hilfsmittelfreien Aufgabenteils ist
+nach dessen Abgabe nicht mehr möglich.
+Sachgebiet
+
+Prüfungszeit A
+(ohne Hilfsmittel)
+
+Analysis
+
+30 BE
+bis zu 110
+Minuten
+
+Stochastik
+Analytische
+Geometrie
+
+Prüfungsteil B
+(mit Hilfsmitteln)
+30 BE
+20 BE
+20 BE
+
+190 Minuten +
+30 Minuten
+Auswahlzeit in
+Analytischer
+Geometrie
+
+Gesamtarbeitszeit: 330 Minuten
+Zugelassene Hilfsmittel:
+Es ist ein wissenschaftlicher, nicht programmierbarer und nicht graphikfähiger
+Taschenrechner zugelassen, der die in dem Dokument Anforderungen_TR_CAS aufgeführten
+Mindestanforderungen erfüllt. Alternativ kann die Schule die Nutzung eines ComputerAlgebra-Systems beantragen. Der Antrag ist jeweils bis zum 30. September vier Jahre vor
+dem erstmaligen Einsatz des CAS im Abitur an die Fachaufsicht Mathematik des
+Ministeriums zu richten, siehe Dokument Anforderungen_TR_CAS.
+Neben einem Taschenrechner ist ausschließlich die mathematisch-naturwissenschaftliche
+Formelsammlung der KMK zu verwenden. Weitere Formelsammlungen sind nicht
+zugelassen.
+3
+
+2.4 Bewertung der Prüfungsleistung
+Für die Bewertung der Arbeit ist in jedem Fall der mit den Aufgaben vorgegebene
+Bewertungsbogen zu benutzen. Werden Lösungen erbracht, die bei der Beschreibung der
+erwarteten Prüfungsleistung nicht erfasst sind, so sind diese angemessen zu berücksichtigen.
+Dabei ist eine Überschreitung der Anzahl der für den betreffenden Aufgabenteil
+vorgesehenen Bewertungseinheiten unzulässig.
+Der Bewertungsbogen wird Bestandteil der Prüfungsarbeit.
+Die Benotung der Arbeiten erfolgt nach folgendem Bewertungsschlüssel:
+Mindestens zu erreichender Anteil an
+den insgesamt zu erreichenden
+Bewertungseinheiten (in %)
+
+Note
+
+Notenpunkte
+
+95
+
+sehr gut
+
+15
+
+90
+
+sehr gut
+
+14
+
+85
+
+sehr gut
+
+13
+
+80
+
+gut
+
+12
+
+75
+
+gut
+
+11
+
+70
+
+gut
+
+10
+
+65
+
+befriedigend
+
+9
+
+60
+
+befriedigend
+
+8
+
+55
+
+befriedigend
+
+7
+
+50
+
+ausreichend
+
+6
+
+45
+
+ausreichend
+
+5
+
+40
+
+ausreichend
+
+4
+
+33
+
+mangelhaft
+
+3
+
+27
+
+mangelhaft
+
+2
+
+20
+
+mangelhaft
+
+1
+
+0
+
+ungenügend
+
+0
+
+Bei schwerwiegenden Mängeln in der äußeren Form und gehäuften Verstößen gegen
+grammatische und orthographische Regeln gelten § 19 Abs. 2 OAPVO, § 1 Abs. 1 APVO-EW
+sowie § 13 Abs. 2 AGVO. Zur Feststellung ist der Beurteilungsbogen Sprachrichtigkeit zu
+verwenden.
+
+4
+
+

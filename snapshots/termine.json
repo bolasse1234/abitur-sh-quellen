@@ -1,0 +1,104 @@
+{
+  "quelle": "za-termine",
+  "url": "https://www.schleswig-holstein.de/DE/landesregierung/themen/bildung-hochschulen/zentrale-abschluesse/allg-zentralabitur/Zentralabitur_Pruefungstermine",
+  "abgerufen": "2026-11-22",
+  "letzteAktualisierung": "2026-08-01",
+  "jahre": [
+    {
+      "jahr": 2027,
+      "spalten": [
+        "Termin",
+        "Prüfung"
+      ],
+      "zeilen": [
+        {
+          "termin": "17. und 18. März 2027",
+          "pruefung": "Sprechprüfung Kern- und Profilfach Englisch"
+        },
+        {
+          "termin": "24. März 2027",
+          "pruefung": "Schriftliche Abiturprüfung Profilfächer(ohne Naturwissenschaften)"
+        },
+        {
+          "termin": "16. April 2027",
+          "pruefung": "Schriftliche Abiturprüfung Biologie"
+        },
+        {
+          "termin": "20. April 2027",
+          "pruefung": "Schriftliche Abiturprüfung Physik"
+        },
+        {
+          "termin": "21. April 2027",
+          "pruefung": "Schriftliche Abiturprüfung Chemie"
+        },
+        {
+          "termin": "27. April 2027",
+          "pruefung": "Schriftliche Abiturprüfung Deutsch"
+        },
+        {
+          "termin": "30. April 2027",
+          "pruefung": "Schriftliche Abiturprüfung Kernfach-Fremdsprachen(außer Französisch)"
+        },
+        {
+          "termin": "3. Mai 2027",
+          "pruefung": "Schriftliche Abiturprüfung Französisch"
+        },
+        {
+          "termin": "5. Mai 2027",
+          "pruefung": "Schriftliche Abiturprüfung Mathematik"
+        },
+        {
+          "termin": "14. bis 25. Juni 2027",
+          "pruefung": "Mündliche Abiturprüfungen"
+        }
+      ],
+      "stand": "Stand: 24. Juli 2025, vorbehaltlich möglicher Änderungen"
+    },
+    {
+      "jahr": 2028,
+      "spalten": [
+        "Termin",
+        "Prüfung"
+      ],
+      "zeilen": [
+        {
+          "termin": "22. und 23. März 2028",
+          "pruefung": "Sprechprüfung Kern- und Profilfach Englisch"
+        },
+        {
+          "termin": "29. März 2028",
+          "pruefung": "Schriftliche Abiturprüfung Biologie und alle anderen Profilfächer(außer Physik, Chemie)"
+        },
+        {
+          "termin": "30. März 2028",
+          "pruefung": "Schriftliche Abiturprüfung Physik"
+        },
+        {
+          "termin": "31. März 2028",
+          "pruefung": "Schriftliche Abiturprüfung Chemie"
+        },
+        {
+          "termin": "26. April 2028",
+          "pruefung": "Schriftliche Abiturprüfung Deutsch"
+        },
+        {
+          "termin": "28. April 2028",
+          "pruefung": "Schriftliche Abiturprüfung Kernfach-Fremdsprachen(außer Französisch)"
+        },
+        {
+          "termin": "3. Mai 2028",
+          "pruefung": "Schriftliche Abiturprüfung Mathematik"
+        },
+        {
+          "termin": "5. Mai 2028",
+          "pruefung": "Schriftliche Abiturprüfung Französisch"
+        },
+        {
+          "termin": "6. bis 16. Juni 2028",
+          "pruefung": "Mündliche Abiturprüfungen"
+        }
+      ],
+      "stand": "Stand: 12. März 2026, vorbehaltlich möglicher Änderungen"
+    }
+  ]
+}

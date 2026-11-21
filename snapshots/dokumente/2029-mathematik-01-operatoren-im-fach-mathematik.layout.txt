@@ -1,0 +1,255 @@
+ Operatoren im Fach Mathema k
+
+
+Stand: August 2021
+
+
+Im Folgenden werden Operatoren erläutert, die im Fach Mathema k in Abschlussprüfungen
+verwendet werden. Diese Operatoren können hinsichtlich ihrer Bedeutung durch Zusätze
+(z.B. „rechnerisch“ oder „graphisch“) speziﬁziert werden. Zugelassene Hilfsmi el dürfen zur
+Bearbeitung verwendet werden, sofern dem kein entsprechender Zusatz entgegensteht.
+Sofern durch den Operator nichts anderes bes mmt ist, ist bei der Bearbeitung der Aufgabe
+das Vorgehen so zu dokumen eren, dass es für eine fachkundige Person nachvollziehbar ist.
+Im Einzelfall können auch hier nicht aufgeführte Operatoren eingesetzt werden, wenn davon
+auszugehen ist, dass sich deren Bedeutung aus dem Kontext ergibt (z.B. „auswerten“,
+„beschri en“, „ankreuzen“, „darstellen“).
+
+
+ Operatoren                 Erläuterungen                Beispiele für Sek. I / Oberstufe
+ angeben,       Die erfragten Objekte, Sachverhalte,    Gib die Lösungsmenge der
+ nennen         Begriﬀe oder Daten werden ohne          Gleichung x2 – 4 = 0 an.
+                Erläuterungen, Begründungen oder
+                Lösungswege mitgeteilt bzw. no ert.     Geben Sie drei Punkte an, die in
+                                                        der Ebene E liegen.
+
+                                                        Nennen Sie drei Aspekte, die
+                                                        den Verlauf des Graphen
+                                                        charakterisieren.
+ auﬂösen        Gleichungen werden unter Angabe         Löse die Gleichung nach x auf.
+                von wesentlichen Zwischenschri en
+                in eine äquivalente Form gebracht.      Lösen Sie die Matrizengleichung
+                Ziel ist i.A. eine Form, aus der ein    … nach der Matrix X auf.
+                Variablen- bzw. Parameterwert
+                unmi elbar abzulesen ist. Ziel kann
+                auch eine vorgegebene Form sein.
+
+
+
+
+                                                                                            1
+  Operatoren             Erläuterungen               Beispiele für Sek. I / Oberstufe
+begründen      Ein Sachverhalt wird durch logische   Begründe, warum eine
+               Schlüsse auf Gesetzmäßigkeiten        quadra sche Gleichung
+               oder kausale Zusammenhänge            höchstens zwei Lösungen haben
+               zurückgeführt.                        kann.
+               Hierbei sind mathema sche Regeln
+               und Beziehungen zu nutzen.            Begründen Sie, dass die
+                                                     Funk on nicht mehr als drei
+               Aufgrund der verschiedenen            Wendestellen haben kann.
+               Ausprägungen des Operators
+               „Begründen“ ergeben sich              Begründen Sie, warum von einer
+               Überschneidungen mit „Beweisen“       binomialverteilten Zufallsgröße
+               und „Zeigen“, wobei dort formale      ausgegangen werden kann.
+               bzw. rechnerische Aspekte eine
+               höhere Bedeutung haben.
+berechnen      Ergebnisse werden von einem           Berechne den Flächeninhalt
+               Ansatz ausgehend auf                  eines Rechtecks mit den
+               rechnerischem Wege gewonnen.          Seitenlängen 5 cm und 7 cm.
+
+               Auch die Nutzung des                  Berechnen Sie die
+               Taschenrechners ist zulässig.         Wahrscheinlichkeit des
+                                                     Ereignisses A.
+beschreiben    Sachverhalte oder Verfahren           Beschreibe, wie man einen auf
+               werden in Tex orm unter               zwei Stellen genauen
+               Verwendung der Fachsprache in         Näherungswert für π
+               vollständigen Sätzen dargestellt.     bes mmen kann.
+
+               Hier sind auch Einschränkungen        Beschreiben Sie einen
+               möglich: „Beschreiben Sie in          Lösungsweg.
+               S chworten“.
+
+bes mmen,      Ergebnisse werden durch Nutzung       Bes mme dasjenige Rechteck
+ermi eln       mathema scher Überlegungen            mit dem Umfang 20 cm,
+               oder Verfahren gewonnen.              welches den größten
+                                                     Flächeninhalt hat.
+               Alle Werkzeugebenen, d.h. auch
+               die Nutzung des Taschenrechners       Bes mmen Sie aus diesen
+               sowie das Ablesen aus gegebenen       Werten die Koordinaten der
+               Diagrammen, Skizzen, Abbildungen      beiden Punkte.
+               usw., sind zulässig.
+                                                     Ermi eln Sie den Schni punkt.
+
+
+
+
+                                                                                        2
+  Operatoren                 Erläuterungen             Beispiele für Sek. I / Oberstufe
+beurteilen         Zu einem Sachverhalt wird eine      Beurteile, ob das Spiel fair ist.
+                   selbstständige Bewertung unter
+                   Verwendung von Fachwissen und       Beurteilen Sie, wie gut die
+                   Fachmethoden formuliert.            vorgeschlagene Funk on das
+                                                       Problem modelliert.
+beweisen,          Aussagen oder Sachverhalte          Beweise:
+widerlegen         werden unter Verwendung von         Wenn sich in einem Viereck die
+                   bekannten mathema schen             Diagonalen halbieren, dann sind
+                   Sätzen, logischen Schlüssen und     die gegenüberliegenden Seiten
+                   Äquivalenzumformungen bestä gt      parallel zueinander.
+                   oder falsiﬁziert, ggf. unter
+                   Verwendung von Gegenbeispielen.
+                                                       Beweisen Sie, dass die vier
+                                                       Mi elpunkte der Seiten des
+                   Verwendete Variablen werden         Vierecks in einer Ebene liegen.
+                   eingeführt.
+                                                       Beweisen oder widerlegen Sie
+                                                       die gegebene These.
+entscheiden        Unter mehreren Möglichkeiten        Entscheide, welche der
+                   werden eine oder mehrere            folgenden Geradengleichungen
+                   ausgewählt.                         die abgebildete Gerade
+                                                       beschreibt.
+                   Eine Begründung der Entscheidung
+                   wird gesondert gefordert.           Entscheiden Sie, welche der
+                                                       Ihnen bekannten Verteilungen
+                                                       zur Problemstellung passt.
+
+                                                       Entscheiden und begründen Sie,
+                                                       welche der Alterna ven die
+                                                       kostengüns gere ist.
+ergänzen,          Ein teilweise vorgegebener Entwurf Ergänzen Sie die Gleichung so,
+vervollständigen   oder Sachverhalt wird nach         dass die Lösungsmenge leer ist.
+                   Vorgaben erweitert oder
+                   weiterentwickelt.                  Vervollständigen Sie die
+                                                      Wertetabelle.
+
+
+
+
+                                                                                           3
+   Operatoren              Erläuterungen              Beispiele für Sek. I / Oberstufe
+erläutern        Sachverhalte oder Verfahren          Erläutere den Zusammenhang
+                 werden in angemessener Tex orm       zwischen den Parametern a, u
+                 nachvollziehbar und verständlich     und v in der Parabelgleichung
+                 dargestellt und gegebenenfalls       f(x) = a(x-u)² + v und der Lage
+                 durch zusätzliche Informa onen       der zugehörigen Parabel im
+                 und Beispiele veranschaulicht.       Koordinatensystem.
+
+                                                      Erläutere den fachlichen
+                                                      Zusammenhang der Begriﬀe
+                                                      ra onale Zahlen, irra onale
+                                                      Zahlen und reelle Zahlen.
+
+                                                      Erläutern Sie den Unterschied
+                                                      zwischen einem Ergebnis und
+                                                      einem Ereignis bei einem
+                                                      Zufallsexperiment.
+erstellen        Zu einem Sachverhalt wird eine       Erstelle zu dem durchgeführten
+                 mathema sche Darstellung in          Zufallsexperiment eine
+                 fachlich korrekter, meist            Häuﬁgkeitstabelle.
+                 vorgegebener Form angefer gt.
+                                                      Erstellen Sie eine Wertetabelle
+                                                      der Wahrscheinlichkeits-
+                                                      verteilung.
+herleiten        Die Entstehung oder Entwicklung      Leite die Gleichung für den
+                 eines gegebenen Sachverhalts aus     Flächeninhalt des Trapezes her.
+                 allgemeineren Sachverhalten wird
+                 nachvollziehbar dargestellt.         Leiten Sie die gegebene
+                                                      Gleichung der Stammfunk on
+                                                      her.
+interpre eren,   Eine graphische Darstellung oder     Berechne die Nullstellen der
+deuten           ein Term bzw. die Ergebnisse einer   quadra schen Funk on und
+                 mathema schen Überlegung (z.B.       interpre ere das Ergebnis.
+                 das Ergebnis einer Rechnung)
+                 werden rückübersetzt auf das         Interpre eren Sie das Ergebnis
+                 ursprüngliche Problem.               im Sachzusammenhang.
+
+
+
+
+                                                                                         4
+   Operatoren             Erläuterungen              Beispiele für Sek. I / Oberstufe
+klassiﬁzieren   Objekte oder Sachverhalte werden     Klassiﬁzieren Sie die Graphen
+                nach vorgegebenen oder               der Schar.
+                selbstständig zu wählenden
+                Kriterien unter Benennung des
+                Ordnungsschemas in Klassen
+                eingeteilt.
+
+                Eine Begründung der
+                vorgegebenen bzw. selbst
+                gewählten Kriterien wird ggf.
+                gesondert gefordert.
+modellieren     Zu einem realen Sachverhalt wird     Modellieren Sie den Sachverhalt
+                ein mathema sches Modell             durch eine geeignete Funk on.
+                entwickelt.
+skizzieren      Die wesentlichen Eigenscha en        Skizziere das in der Aufgabe
+                eines Objektes oder einer Struktur   beschriebene Grundstück.
+                werden graphisch angemessen
+                dargestellt – eventuell als          Skizzieren Sie den Graphen der
+                Freihandzeichnung; in der Regel      Funk on f.
+                ohne Berücksich gung eines
+                Maßstabs.
+                                                     Skizzieren Sie die drei Objekte
+                                                     unter Berücksich gung der
+                                                     gegensei gen Lage.
+untersuchen,    Sachverhalte oder mathema sche       Untersuche, in wie viele Gebiete
+prüfen          Objekte werden nach                  drei Geraden die Zeichenebene
+                vorgegebenen oder selbst             zerlegen.
+                gewählten Aspekten analysiert und
+                nach fachlich üblichen, sinnvollen   Untersuchen Sie, ob es eine
+                Kriterien dargestellt.               Funk on der Schar gibt, deren
+                Dabei müssen unter Umständen         Graph keinen Hochpunkt
+                selbstständig Fallunterscheidungen   besitzt.
+                vorgenommen werden.
+                                                     Prüfen Sie, ob die beiden
+                                                     Graphen Berührpunkte haben.
+
+
+
+
+                                                                                        5
+  Operatoren             Erläuterungen             Beispiele für Sek. I / Oberstufe
+vergleichen    Nach vorgegebenen oder selbst       Vergleiche die beiden
+               gewählten Gesichtspunkten           Lösungsverfahren. (Ein lineares
+               werden Gemeinsamkeiten,             Gleichungssystem wird mit dem
+               Ähnlichkeiten und Unterschiede      Gleichsetzungsverfahren und
+               ermi elt und dargestellt.           dem Einsetzungsverfahren
+                                                   gelöst.)
+               Eine Beurteilung wird ggf.
+               gesondert gefordert.                Vergleichen Sie den Verlauf der
+                                                   Graphen der Funk onen fa für
+                                                   posi ve und für nega ve
+                                                   Parameter a.
+
+                                                   Vergleichen Sie die Entwicklung
+                                                   der beiden Popula onen in den
+                                                   ersten zehn Tagen.
+
+                                                   Vergleichen Sie die beiden
+                                                   Lösungsverfahren und
+                                                   beurteilen Sie deren
+                                                   Genauigkeit.
+zeichnen,      Eine hinreichend exakte Abbildung   Zeichne den Graphen der
+konstruieren   wird – gegebenenfalls               Funk on.
+               maßstabsgetreu – angefer gt.
+                                                   Zeichnen Sie den Graphen der
+                                                   Funk on in einem geeigneten
+                                                   Koordinatensystem.
+zeigen,        Eine Aussage oder ein Sachverhalt   Zeige, dass das Dreieck
+nachweisen     wird nach gül gen Schlussregeln,    gleichschenklig ist.
+               mit Berechnungen, Herleitungen
+               oder logischen Begründungen         Zeigen Sie, dass die Punkte A, B
+               bestä gt.                           und C auf einer Geraden liegen.
+
+               Teile der Argumenta onske e         Weisen Sie nach, dass die
+               können ohne Herleitung aus den      beiden gefundenen Vektoren
+               eingeführten Hilfsmi eln            orthogonal zueinander sind.
+               gewonnen werden.
+zuordnen       Zwischen den Objekten zweier        Ordnen Sie jedem Graphen eine
+               Mengen wird nach sinnvollen         der vorgegebenen
+               Kriterien eine Beziehung            Funk onsgleichungen zu.
+               hergestellt.
+
+
+
+
+                                                                                      6
+

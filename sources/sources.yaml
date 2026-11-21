@@ -1,0 +1,196 @@
+# Quellenregister
+# ----------------
+# Jede Quelle ist eine OFFIZIELLE Seite / Datei des Landes Schleswig-Holstein.
+# `npm run fetch` ruft alle Quellen ab, speichert Schnappschüsse unter snapshots/
+# und folgt den `entdecke`-Regeln, um verlinkte Dateien (ZIP, PDF, juris) automatisch
+# mitzunehmen – so tauchen z. B. die Prüfungsregelungen 2030 automatisch auf.
+#
+# nutzung:
+#   spiegeln  – amtlicher Text (Verordnung, Erlass, Hinweis, Seitentext) darf gespiegelt werden
+#   verlinken – nur verlinken (Prüfungsaufgaben, Erwartungshorizonte, umfangreiche Lehrpläne)
+#
+# typ: seite | zip | pdf | juris | link
+
+herausgeber:
+  landesportal: "Landesportal Schleswig-Holstein (schleswig-holstein.de)"
+  juris: "Landesrecht Schleswig-Holstein – Bürgerservice (gesetze-rechtsprechung.sh.juris.de)"
+  fachportal: "Fachportal des IQSH (fachportal.lernnetz.de)"
+
+quellen:
+  - id: za-start
+    titel: "Zentrale Abschlüsse"
+    url: https://www.schleswig-holstein.de/DE/landesregierung/themen/bildung-hochschulen/zentrale-abschluesse
+    herausgeber: landesportal
+    typ: seite
+    nutzung: spiegeln
+    hinweis: "Die Kurzadresse za.schleswig-holstein.de leitet auf diese Seite weiter."
+
+  - id: za-allg
+    titel: "Zentralabitur an allgemeinbildenden Schulen"
+    url: https://www.schleswig-holstein.de/DE/landesregierung/themen/bildung-hochschulen/zentrale-abschluesse/allg-zentralabitur
+    herausgeber: landesportal
+    typ: seite
+    nutzung: spiegeln
+
+  - id: za-termine
+    titel: "Prüfungstermine des Abiturs an allgemeinbildenden Schulen"
+    url: https://www.schleswig-holstein.de/DE/landesregierung/themen/bildung-hochschulen/zentrale-abschluesse/allg-zentralabitur/Zentralabitur_Pruefungstermine
+    herausgeber: landesportal
+    typ: seite
+    nutzung: spiegeln
+    termine: true   # Tabellen „Prüfungstermine JJJJ“ werden automatisch ausgelesen
+
+  - id: za-regelungen
+    titel: "Fachspezifische Prüfungsregelungen (Abitur, allgemeinbildende Schulen)"
+    url: https://www.schleswig-holstein.de/DE/landesregierung/themen/bildung-hochschulen/zentrale-abschluesse/allg-zentralabitur/Zentralabitur_fachspez_Pruefungsregelungen
+    herausgeber: landesportal
+    typ: seite
+    nutzung: spiegeln
+    entdecke:
+      - muster: 'zentrale_abschluesse/downloads/(\d{4})_Abitur_allgembild_Pr[a-z]*regelungen'
+        typ: zip
+        id: "pruefungsregelungen-$1"
+        titel: "Fachspezifische Prüfungsregelungen Abitur $1 (ZIP)"
+        jahr: "$1"
+        nutzung: spiegeln
+
+  - id: za-sprachrichtigkeit
+    titel: "Beurteilungsbogen zur Feststellung der Sprachrichtigkeit"
+    url: https://www.schleswig-holstein.de/DE/landesregierung/themen/bildung-hochschulen/zentrale-abschluesse/allg-zentralabitur/Beurteilungsbogen_Sprachrichtigkeit
+    herausgeber: landesportal
+    typ: seite
+    nutzung: spiegeln
+    entdecke:
+      - muster: 'zentrale_abschluesse/downloads/Abitur_Beurteilungsbogen_Sprachrichtigkeit\.pdf'
+        typ: pdf
+        id: beurteilungsbogen-sprachrichtigkeit
+        titel: "Beurteilungsbogen zur Feststellung von gehäuften Verstößen gegen grammatische und orthographische Regeln"
+        nutzung: spiegeln
+
+  - id: za-extern
+    titel: "Abitur als Externenprüfung"
+    url: https://www.schleswig-holstein.de/DE/landesregierung/themen/bildung-hochschulen/zentrale-abschluesse/allg-zentralabitur/Abitur_Externenpruefung
+    herausgeber: landesportal
+    typ: seite
+    nutzung: spiegeln
+
+  - id: za-aufgaben
+    titel: "Prüfungsaufgaben zentral geprüfter Fächer (Abitur, allgemeinbildende Schulen)"
+    url: https://www.schleswig-holstein.de/DE/landesregierung/themen/bildung-hochschulen/zentrale-abschluesse/allg-zentralabitur/Zentralabitur_Pruefungsaufgangen
+    herausgeber: landesportal
+    typ: seite
+    nutzung: spiegeln
+    entdecke:
+      - muster: 'zentrale_abschluesse/downloads/(\d{4})_Abitur_allgembild_Pruefaufgaben'
+        typ: link
+        id: "pruefungsaufgaben-$1"
+        titel: "Prüfungsaufgaben Abitur $1 (ZIP, nur verlinkt)"
+        jahr: "$1"
+        nutzung: verlinken
+
+  - id: za-bg
+    titel: "Zentralabitur an berufsbildenden Schulen"
+    url: https://www.schleswig-holstein.de/DE/landesregierung/themen/bildung-hochschulen/zentrale-abschluesse/berufsbildend-zentralabitur
+    herausgeber: landesportal
+    typ: seite
+    nutzung: spiegeln
+    entdecke:
+      - muster: 'perma\?j=(BGymV_SH)$'
+        typ: juris
+        id: bgvo
+        titel: "Landesverordnung über das Berufliche Gymnasium (BGVO)"
+        kurz: BGVO
+        nutzung: spiegeln
+
+  - id: schulrecht-abitur
+    titel: "Schulrecht von A bis Z: Abitur"
+    url: https://www.schleswig-holstein.de/DE/fachinhalte/S/schulrecht/Glossareintraege/A/abitur
+    herausgeber: landesportal
+    typ: seite
+    nutzung: spiegeln
+    entdecke:
+      - muster: 'perma\?j=(GymOAbiPrO_SH)$'
+        typ: juris
+        id: oapvo
+        titel: "Landesverordnung über die Gestaltung der Oberstufe und der Abiturprüfung in den Gymnasien und Gemeinschaftsschulen (OAPVO)"
+        kurz: OAPVO
+        nutzung: spiegeln
+      - muster: 'perma\?j=(WaldorfunSchAbiPrV_SH)$'
+        typ: juris
+        id: apvo-ew
+        titel: "Landesverordnung über die Abiturprüfung für Externe sowie für Schülerinnen und Schüler an nicht staatlich anerkannten Ersatzschulen und Waldorfschulen (APVO-EW)"
+        kurz: APVO-EW
+        nutzung: spiegeln
+        ersatzDocId: jlr-NNLSH00002A8A   # Stand 22.11.2026: perma?j=WaldorfunSchAbiPrV_SH liefert 0 Treffer
+      - muster: 'Downloads/Oberstufe2\.pdf'
+        typ: pdf
+        id: broschuere-neue-oberstufe
+        titel: "Broschüre „Die neue Oberstufe“ (2. Auflage)"
+        nutzung: spiegeln
+      - muster: 'Erlasse/Downloads/Profilseminar\.pdf'
+        typ: pdf
+        id: erlass-profilseminar
+        titel: "Erlass: Rahmenvorgaben für das Profilseminar in der Qualifikationsphase der Oberstufe"
+        nutzung: spiegeln
+      - muster: 'Downloads/OAPVO_FAQ\.pdf'
+        typ: pdf
+        id: oapvo-faq
+        titel: "FAQ: Belegung von Fächern auf erhöhtem Anforderungsniveau ab 1. August 2025 (Q1) und schriftliche Abiturprüfung ab dem Prüfungsjahr 2027"
+        nutzung: spiegeln
+      - muster: 'Downloads/Aenderung_APVO_EW\.pdf'
+        typ: pdf
+        id: aenderung-apvo-ew
+        titel: "Landesverordnung zur Änderung der APVO-EW"
+        nutzung: spiegeln
+      - muster: 'Rechtsquellen/Abitur_Brief_M\.pdf'
+        typ: pdf
+        id: brief-unterrichtszeiten-abiturkorrektur
+        titel: "Anschreiben der Ministerin: Unterrichtszeiten im Abiturprüfungsjahrgang; Abiturkorrektur in Schuljahren mit frühem Sommerferienbeginn"
+        nutzung: spiegeln
+      - muster: 'Erlasse/Downloads/Abitur_Erlass\.pdf'
+        typ: pdf
+        id: erlass-staffelmodell-abiturkorrektur
+        titel: "Staffelmodell zur Sicherung der Abiturkorrektur bei kurzer Korrekturfrist"
+        nutzung: spiegeln
+      - muster: '230801_Erlass_AHR_BOS_\.pdf'
+        typ: pdf
+        id: erlass-ahr-bos
+        titel: "Erlass: Erwerb der allgemeinen Hochschulreife an der Berufsoberschule"
+        nutzung: spiegeln
+
+  - id: agvo
+    titel: "Landesverordnung über die Gestaltung der Abendgymnasien (AGVO)"
+    kurz: AGVO
+    url: https://www.gesetze-rechtsprechung.sh.juris.de/perma?d=jlr-NNLSH00002A8B
+    docId: jlr-NNLSH00002A8B
+    herausgeber: juris
+    typ: juris
+    nutzung: spiegeln
+    hinweis: "Auf der Landesseite „Zentralabitur an allgemeinbildenden Schulen“ als geltende Vorgabe genannt, dort aber nicht verlinkt; Dokument über die Portalsuche ermittelt."
+
+  - id: fachanforderungen
+    titel: "Fachanforderungen und Leitfäden (Übersicht)"
+    url: https://fachportal.lernnetz.de/sh/fachanforderungen.html
+    herausgeber: fachportal
+    typ: seite
+    nutzung: spiegeln
+    hinweis: "Die Fachanforderungen selbst (PDF) werden wegen ihres Umfangs nur verlinkt."
+
+  # Fachanforderungen je Abiturprüfungsfach (Seitentext wird gespiegelt, PDFs nur verlinkt)
+  - { id: fa-biologie, titel: "Fachanforderungen Biologie", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/biologie.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: biologie }
+  - { id: fa-chemie, titel: "Fachanforderungen Chemie", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/chemie.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: chemie }
+  - { id: fa-daenisch, titel: "Fachanforderungen Dänisch", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/daenisch.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: daenisch }
+  - { id: fa-deutsch, titel: "Fachanforderungen Deutsch", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/deutsch.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: deutsch }
+  - { id: fa-englisch, titel: "Fachanforderungen Englisch", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/englisch.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: englisch }
+  - { id: fa-franzoesisch, titel: "Fachanforderungen Französisch", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/franzoesisch.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: franzoesisch }
+  - { id: fa-geographie, titel: "Fachanforderungen Geographie", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/geographie.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: geographie }
+  - { id: fa-geschichte, titel: "Fachanforderungen Geschichte", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/geschichte.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: geschichte }
+  - { id: fa-informatik, titel: "Fachanforderungen Informatik", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/informatik.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: informatik }
+  - { id: fa-kunst, titel: "Fachanforderungen Kunst", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/kunst.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: kunst }
+  - { id: fa-latein, titel: "Fachanforderungen Latein", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/latein.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: latein }
+  - { id: fa-mathematik, titel: "Fachanforderungen Mathematik", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/mathematik.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: mathematik }
+  - { id: fa-musik, titel: "Fachanforderungen Musik", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/musik.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: musik }
+  - { id: fa-physik, titel: "Fachanforderungen Physik", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/physik.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: physik }
+  - { id: fa-spanisch, titel: "Fachanforderungen Spanisch", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/spanisch.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: spanisch }
+  - { id: fa-sport, titel: "Fachanforderungen Sport", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/sport.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: sport }
+  - { id: fa-wirtschaft-politik, titel: "Fachanforderungen Wirtschaft/Politik", url: "https://fachportal.lernnetz.de/sh/fachanforderungen/wirtschaft-politik.html", herausgeber: fachportal, typ: seite, nutzung: spiegeln, fach: wirtschaft-politik }

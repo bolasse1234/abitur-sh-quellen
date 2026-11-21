@@ -1,0 +1,134 @@
+# Übergreifende Kernangaben (Oberstufe/Abitur) mit wörtlichem Beleg.
+# quelle: ID aus dem Quellenregister (Seite, juris-Norm oder PDF)
+# teil:   bei juris-Normen der Paragraf/Anlagen-Titelanfang (z. B. "§ 18"), bei Seiten leer
+# Jedes Zitat wird beim Build gegen den aktuellen Schnappschuss geprüft.
+
+themen:
+  - id: aufbau
+    titel: Aufbau der Abiturprüfung
+    fakten:
+      - wert: Vier oder fünf Prüfungen – zwei schriftlich auf erhöhtem Niveau, eine schriftlich auf grundlegendem Niveau, eine oder zwei mündlich auf grundlegendem Niveau
+        zitat: "Die Abiturprüfung besteht aus vier oder fünf Prüfungen in unterschiedlichen Fächern. Es werden zwei Prüfungen schriftlich auf erhöhtem Anforderungsniveau, eine Prüfung schriftlich auf grundlegendem Niveau und eine Prüfung oder zwei Prüfungen mündlich auf grundlegendem Niveau abgelegt."
+        quelle: oapvo
+        teil: "§ 13"
+      - wert: Vierte Prüfung wahlweise mündlich oder als Präsentationsprüfung; fünfte Prüfung freiwillig (mündlich oder besondere Lernleistung)
+        zitat: "Die vierte Prüfung kann wahlweise als mündliche Prüfung oder als Präsentationsprüfung abgelegt werden. Die Schülerin oder der Schüler kann wählen, ob sie oder er zusätzlich eine fünfte Prüfung ablegt. Die fünfte Prüfung kann wahlweise als mündliche Prüfung oder als besondere Lernleistung erfolgen."
+        quelle: oapvo
+        teil: "§ 13"
+      - wert: 1. und 2. schriftliches Prüfungsfach sind das Kernfach auf erhöhtem Niveau und eines der beiden Kernfächer auf grundlegendem Niveau
+        zitat: "Erstes und zweites schriftliches Abiturprüfungsfach sind das auf erhöhtem Niveau belegte Kernfach und eines der beiden auf grundlegendem Niveau belegten Kernfächer (Deutsch, Fremdsprache oder Mathematik); eine Fremdsprache, die in der Oberstufe neu begonnen wurde, kann nicht schriftliches Prüfungsfach sein."
+        quelle: oapvo
+        teil: "§ 13"
+      - wert: 3. schriftliches Prüfungsfach ist das Profilfach
+        zitat: "Drittes schriftliches Abiturprüfungsfach ist das Profilfach."
+        quelle: oapvo
+        teil: "§ 13"
+      - wert: Aus jedem Aufgabenfeld mindestens ein Prüfungsfach
+        zitat: "Aus jedem Aufgabenfeld ist mindestens ein Fach als Abiturprüfungsfach zu wählen."
+        quelle: oapvo
+        teil: "§ 13"
+      - wert: Meldung der Prüfungsfächer zu Beginn des dritten Schulhalbjahres der Qualifikationsphase
+        zitat: "Zu Beginn des dritten Schulhalbjahres der Qualifikationsphase teilt die Schülerin oder der Schüler der Schule mit, in welchen Fächern die Abiturprüfung abgelegt werden soll."
+        quelle: oapvo
+        teil: "§ 13"
+
+  - id: faecher-zentral
+    titel: Prüfungsfächer und zentral gestellte Aufgaben
+    fakten:
+      - wert: "Abiturprüfungsfächer an allgemeinbildenden Schulen: Biologie, Chemie, Dänisch, Deutsch, Englisch, Französisch, Geografie, Geschichte, Informatik, Kunst, Latein, Mathematik, Musik, Physik, Spanisch, Sport, Wirtschaft/Politik"
+        zitat: "Abiturprüfungsfächer an den allgemeinbildenden Schulen sind Biologie, Chemie, Dänisch, Deutsch, Englisch, Französisch, Geografie, Geschichte, Informatik, Kunst, Latein, Mathematik, Musik, Physik, Spanisch, Sport und Wirtschaft/Politik."
+        quelle: za-regelungen
+      - wert: "Zentral geprüft: Deutsch, Mathematik, Englisch, Französisch, Spanisch, Latein, Dänisch, Biologie, Chemie, Physik"
+        zitat: "Zu den zentral geprüften Fächern zählen Deutsch, Mathematik, Englisch, Französisch, Spanisch, Latein, Dänisch, Biologie, Chemie und Physik."
+        quelle: za-aufgaben
+      - wert: Aufgaben aus dem Gemeinsamen Abituraufgabenpool der Länder (IQB) in Chemie und Physik seit 2025, in Biologie seit 2026
+        zitat: "werden seit der Abiturprüfung 2025 in den Fächern Chemie und Physik und seit der Abiturprüfung 2026 ebenfalls im Fach Biologie Aufgaben aus den Gemeinsamen Abituraufgabenpools der Länder in der Abiturprüfung an allgemeinbildenden Schulen in Schleswig-Holstein zentral gestellt."
+        quelle: za-allg
+
+  - id: zeiten
+    titel: Prüfungszeiten (Rahmen der OAPVO)
+    fakten:
+      - wert: Prüfungszeit erhöhtes Niveau mindestens 4, höchstens 5 Zeitstunden; grundlegendes Niveau mindestens 3, höchstens 4 Zeitstunden; exakte Zeit fachspezifisch per Erlass
+        zitat: "Die Prüfungszeit beträgt in den Prüfungsfächern auf erhöhtem Anforderungsniveau mindestens vier und höchstens fünf Zeitstunden. In dem Prüfungsfach auf grundlegendem Niveau beträgt die Prüfungszeit mindestens drei und höchstens vier Zeitstunden. Die exakte Prüfungszeit regelt die Schulaufsichtsbehörde fachspezifisch durch Erlass."
+        quelle: oapvo
+        teil: "§ 18"
+      - wert: Zusätzliche Auswahlzeit von höchstens 45 Minuten möglich; Bearbeitungszeit = Prüfungszeit + ggf. Auswahlzeit
+        zitat: "Können die Prüflinge zwischen verschiedenen Aufgaben wählen, kann die Schulaufsichtsbehörde eine zusätzliche Auswahlzeit vorsehen, die 45 Minuten nicht überschreiten darf. Die Bearbeitungszeit setzt sich aus der Prüfungszeit und gegebenenfalls der Auswahlzeit zusammen."
+        quelle: oapvo
+        teil: "§ 18"
+      - wert: Verlängerung um höchstens eine Zeitstunde bei Schülerexperimenten oder gestalterischen Aufgaben (mit Genehmigung)
+        zitat: "Mit Genehmigung der Schulaufsichtsbehörde darf die Prüfungszeit zudem um höchstens eine Zeitstunde verlängert werden, wenn es zur Durchführung von Schülerexperimenten oder für gestalterische Aufgaben erforderlich ist."
+        quelle: oapvo
+        teil: "§ 18"
+      - wert: Nicht mehr als zwei aufeinanderfolgende Tage mit schriftlichen Prüfungen pro Schülerin/Schüler
+        zitat: "Die Termine für schriftliche Prüfungen sind so zu legen, dass die einzelne Schülerin oder der einzelne Schüler nicht an mehr als zwei aufeinanderfolgenden Tagen die Prüfungsarbeiten zu schreiben hat."
+        quelle: oapvo
+        teil: "§ 16"
+
+  - id: fremdsprachen
+    titel: Moderne Fremdsprachen (Sprechprüfung)
+    fakten:
+      - wert: Schriftliche Prüfung in einer modernen Fremdsprache als Kern- oder Profilfach besteht aus schriftlichem Teil und Sprechprüfung (nach Vorgabe der Schulaufsicht)
+        zitat: "Ist eine moderne Fremdsprache als Kernfach oder Profilfach schriftliches Prüfungsfach, besteht nach Vorgabe der Schulaufsichtsbehörde die schriftliche Prüfung aus einem schriftlichen Teil und einem praktischen Teil (Sprechprüfung)."
+        quelle: oapvo
+        teil: "§ 20"
+      - wert: Sprechprüfung als Partnerprüfung, etwa zehn Minuten je Prüfling
+        zitat: "Die Sprechprüfung ist eine Partnerprüfung, an der zwei Prüflinge teilnehmen sollen. Sie dauert etwa zehn Minuten je Prüfling"
+        quelle: oapvo
+        teil: "§ 20"
+      - wert: Gewichtung schriftlicher Teil 80 %, Sprechprüfung 20 %
+        zitat: "Für das Gesamtergebnis der schriftlichen Prüfung gemäß § 33 werden der schriftliche Teil mit 80 Prozent und die Sprechprüfung mit 20 Prozent gewichtet."
+        quelle: oapvo
+        teil: "§ 20"
+
+  - id: muendlich
+    titel: Mündliche Prüfung und Präsentationsprüfung
+    fakten:
+      - wert: Mündliche Prüfung als Einzelprüfung, in der Regel 20 Minuten
+        zitat: "Die mündliche Prüfung wird als Einzelprüfung durchgeführt. Sie dauert in der Regel 20 Minuten."
+        quelle: oapvo
+        teil: "§ 24"
+      - wert: Zwei Aufgaben, 30 Minuten Vorbereitungszeit
+        zitat: "Die Vorbereitungszeit beträgt 30 Minuten."
+        quelle: oapvo
+        teil: "§ 24"
+      - wert: Präsentationsprüfung – vier Schulwochen Bearbeitungszeit für die Aufgabe
+        zitat: "Die Schülerin oder der Schüler erhält die Aufgabe für die Präsentation so, dass sie oder er vier Schulwochen Zeit zur Bearbeitung hat."
+        quelle: oapvo
+        teil: "§ 27"
+      - wert: Präsentation höchstens zehn Minuten, Kolloquium mindestens 20 Minuten
+        zitat: "Die selbstständige Präsentation umfasst höchstens zehn Minuten, das Kolloquium mindestens 20 Minuten."
+        quelle: oapvo
+        teil: "§ 27"
+      - wert: Dokumentation spätestens zehn Tage vor dem Kolloquium; nicht Grundlage der Beurteilung
+        zitat: "Spätestens zehn Tage vor dem Kolloquium muss eine schriftliche Dokumentation über den geplanten Ablauf der Präsentation mit allen Präsentationsinhalten der Prüferin oder dem Prüfer übergeben werden. Sie ist nicht Grundlage der Beurteilung, sondern dient der Vorbereitung des Kolloquiums."
+        quelle: oapvo
+        teil: "§ 27"
+
+  - id: termine-regeln
+    titel: Zeitraum der Abiturprüfung
+    fakten:
+      - wert: Abiturprüfung im vierten Schulhalbjahr der Qualifikationsphase; Zeitplan durch die Schulaufsichtsbehörde
+        zitat: "Die Abiturprüfung findet im vierten Schulhalbjahr der Qualifikationsphase statt. Die Schulaufsichtsbehörde teilt der Schule einen Zeitplan für die zentralen und dezentralen Prüfungen mit."
+        quelle: oapvo
+        teil: "§ 16"
+
+  - id: sprachrichtigkeit
+    titel: Sprachrichtigkeit
+    fakten:
+      - wert: Fehlerquotienten-Erlass von August 2014 mit Wirkung vom 1. August 2024 aufgehoben
+        zitat: "ist der Erlass vom August 2014 zur Verwendung von Fehlerquotienten zur Bewertung der Sprachrichtigkeit in Textproduktionen im Fach Deutsch bzw. zum Ermitteln des Punktabzugs wegen mangelhafter Sprachrichtigkeit in Klausuren aller nichtsprachlichen Fächer sowie Latein in der gymnasialen Oberstufe mit Wirkung vom 1. August 2024 in allen Schularten und -stufen, in denen er bisher Gültigkeit hatte, aufgehoben."
+        quelle: za-sprachrichtigkeit
+      - wert: Für nichtsprachliche Fächer und Latein soll der Beurteilungsbogen des Bildungsministeriums verwendet werden
+        zitat: "soll der entsprechende Beurteilungsbogen des Bildungsministeriums verwendet werden."
+        quelle: za-sprachrichtigkeit
+
+  - id: externe
+    titel: Abitur für Externe
+    fakten:
+      - wert: Externenprüfungen zum Abitur einmal jährlich am Abendgymnasium Lübeck
+        zitat: "Externenprüfungen zum Abitur werden in Schleswig-Holstein einmal jährlich am Abendgymnasium Lübeck durchgeführt."
+        quelle: za-extern
+      - wert: Anmeldung bis zum 1. Dezember des Vorjahres
+        zitat: "Die Anmeldung muss jeweils bis zum 1. Dezember des Vorjahres erfolgen."
+        quelle: za-extern

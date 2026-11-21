@@ -1,0 +1,504 @@
+# Kernangaben je Abiturprüfungsfach (allgemeinbildende Schulen, OAPVO)
+# ----------------------------------------------------------------------
+# Jede Angabe („wert“) ist eine knappe Wiedergabe eines WÖRTLICHEN Zitats („zitat“) aus dem
+# genannten amtlichen Dokument. Der Build prüft jedes Zitat automatisch gegen den aktuellen
+# Dokumenttext je Abiturjahr (Normalisierung: Leerraum, Silbentrennung, Anführungszeichen).
+# Wird ein Zitat in einem Jahrgang nicht gefunden, erscheint dort „nicht wortgleich belegt“.
+#
+# dok: Schlüssel des Dokuments im ZIP „Prüfungsregelungen <Jahr>“ – entweder ein Schlüssel für
+#      alle Jahre oder eine Zuordnung {jahr: schlüssel}. Dokument-ID = <jahr>-<ordner>-<schlüssel>.
+# Neue Angaben: Zitat exakt aus snapshots/dokumente/<id>.txt kopieren, dann `npm run verify`.
+
+jahre: [2027, 2028, 2029]
+
+faecher:
+  - slug: deutsch
+    name: Deutsch
+    ordner: deutsch
+    pruefungen:
+      - titel: Schriftliche Prüfung (erhöhtes und grundlegendes Niveau)
+        niveau: [eA, gA]
+        dok: pruefungsregelungen-deutsch
+        fakten:
+          - thema: Bearbeitungszeit eA
+            wert: 315 Minuten einschließlich Lese- und Auswahlzeit
+            zitat: "Die Bearbeitungszeit beträgt einschließlich Lese- und Auswahlzeit auf erhöhtem Niveau 315 Minuten,"
+          - thema: Bearbeitungszeit gA
+            wert: 255 Minuten einschließlich Lese- und Auswahlzeit
+            zitat: ["auf grundlegenden Niveau 255 Minuten.", "auf grundlegendem Niveau 255 Minuten."]
+          - thema: Aufgabenauswahl
+            wert: Vier Aufgaben werden vorgelegt, eine wird bearbeitet
+            zitat: "Den Abiturientinnen/den Abiturienten werden vier Aufgaben zu den unter Punkt 2 genannten Themenfeldern vorgelegt. Die Abiturientin/der Abiturient bearbeitet eine Aufgabe."
+          - thema: Hilfsmittel
+            wert: Eigenes Exemplar der Pflichtlektüren (nur mit Markierungen/Randbemerkungen mit unmittelbarem Textbezug) und Rechtschreibwörterbuch
+            zitat: "Text der Pflichtlektüren: Die Schülerinnen und Schüler dürfen ihr eigenes Exemplar benutzen, wenn dieses lediglich Markierungen und Randbemerkungen mit unmittelbarem Textbezug enthält. 2. Rechtschreibwörterbuch"
+
+  - slug: mathematik
+    name: Mathematik
+    ordner: mathematik
+    pruefungen:
+      - titel: Schriftliche Prüfung – erhöhtes Anforderungsniveau
+        niveau: [eA]
+        dok: pruefungsregelungen-mathematik-ea
+        fakten:
+          - thema: Bearbeitungszeit
+            wert: 330 Minuten insgesamt
+            zitat: "Insgesamt stehen 330 Minuten für die schriftliche Abiturprüfung zur Verfügung."
+          - thema: Aufbau
+            wert: Hilfsmittelfreier Teil A und Teil B mit komplexen Aufgaben
+            zitat: "Die Prüfungsaufgabe besteht aus zwei Teilen: einem hilfsmittelfreien Teil (Teil A) und einem Teil mit komplexen Aufgabenstellungen (Teil B)."
+          - thema: Teil A
+            wert: Sechs hilfsmittelfreie Aufgaben (vier Pflicht, zwei aus sechs gewählt), bis zu 110 Minuten inkl. Einlese- und Auswahlzeit
+            zitat: "In der Summe bearbeiten die Prüflinge somit sechs hilfsmittelfreie Aufgaben. Jede Aufgabe des hilfsmittelfreien Teils ist auf 5 Bewertungseinheiten ausgelegt; für den hilfsmittelfreien Teil sind insgesamt bis zu 110 Minuten (inklusive Einlese- und Auswahlzeit) vorgesehen."
+          - thema: Teil B
+            wert: Drei komplexe Aufgaben (Analysis 30 BE, Analytische Geometrie und Stochastik je 20 BE), zusammen 220 Minuten
+            zitat: "Insgesamt bearbeiten die Prüflinge somit drei komplexe Aufgaben. Die Analysisaufgabe ist auf 30 Bewertungseinheiten ausgelegt, die Aufgaben der Analytischen Geometrie und der Stochastik auf jeweils 20 Bewertungseinheiten. Für die drei von den Schülerinnen und Schülern zu bearbeitenden Aufgaben im Teil B sind zusammen 220 Minuten vorgesehen."
+          - thema: Auswahl Teil B
+            wert: Analysis und Stochastik wählt die Abiturprüfungskommission; zwischen zwei Aufgaben zur Analytischen Geometrie wählen die Prüflinge (+30 Minuten)
+            zitat: "Die zwei Aufgaben des Sachgebiets Analytische Geometrie werden den Prüflingen zur Auswahl vorgelegt. Infolge der Auswahlmöglichkeit im Teil B verlängert sich die Prüfungszeit um 30 Minuten."
+          - thema: Hilfsmittel
+            wert: Wissenschaftlicher, nicht programmierbarer, nicht graphikfähiger Taschenrechner (alternativ CAS auf Antrag) und ausschließlich die Formelsammlung der KMK
+            zitat:
+              - "Es ist ein wissenschaftlicher, nicht programmierbarer und nicht graphikfähiger Taschenrechner zugelassen, der die in dem Dokument Anforderungen_TR_CAS aufgeführten Mindestanforderungen erfüllt."
+              - "Es ist ein wissenschaftlicher, nicht programmierbarer und nicht grafikfähiger Taschenrechner zugelassen"
+      - titel: Schriftliche Prüfung – grundlegendes Anforderungsniveau
+        niveau: [gA]
+        dok: pruefungsregelungen-mathematik-ga
+        fakten:
+          - thema: Bearbeitungszeit
+            wert: 285 Minuten insgesamt
+            zitat: "Insgesamt stehen 285 Minuten für die schriftliche Abiturprüfung zur Verfügung."
+          - thema: Teil A
+            wert: Fünf hilfsmittelfreie Aufgaben, bis zu 100 Minuten inkl. Einlese- und Auswahlzeit
+            zitat: "In der Summe bearbeiten die Prüflinge somit fünf hilfsmittelfreie Aufgaben. Jede Aufgabe des hilfsmittelfreien Teils ist auf 5 Bewertungseinheiten ausgelegt; für den hilfsmittelfreien Teil sind insgesamt bis zu 100 Minuten (inklusive Einlese- und Auswahlzeit) vorgesehen."
+          - thema: Teil B
+            wert: Drei komplexe Aufgaben (Analysis 25 BE, Analytische Geometrie und Stochastik je 15 BE), zusammen 185 Minuten
+            zitat: "Die Analysisaufgabe ist auf 25 Bewertungseinheiten ausgelegt, die Aufgaben der Analytischen Geometrie und der Stochastik auf jeweils 15 Bewertungseinheiten. Für die drei von den Prüflingen zu bearbeitenden Aufgaben im Teil B sind zusammen 185 Minuten vorgesehen."
+          - thema: Auswahl Teil B
+            wert: Auswahlmöglichkeit in Analytischer Geometrie verlängert die Prüfungszeit von 155 auf 185 Minuten
+            zitat: "Infolge der Auswahlmöglichkeit im Teil B verlängert sich die Prüfungszeit um 30 Minuten von 155 auf 185 Minuten."
+
+  - slug: englisch
+    name: Englisch
+    ordner: englisch
+    pruefungen:
+      - titel: Kernfach – erhöhtes Niveau (schriftlich inkl. Sprechprüfung)
+        niveau: [eA]
+        dok: { 2027: eng-kf-erhoehtes-niveau-pruefungsregelungen, 2028: pruefungsregelungen-eng-kernfach-en, 2029: pruefungsregelungen-eng-kernfach-en }
+        fakten:
+          - thema: Prüfungsteile
+            wert: Schreiben 210 Minuten, Sprachmittlung 60 Minuten, Sprechen 30 Minuten
+            zitat: "einem Prüfungsteil Schreiben im Umfang von 210 Minuten, einem Prüfungsteil Sprachmittlung im Umfang von 60 Minuten und einem Prüfungsteil Sprechen im Umfang von 30 Minuten."
+          - thema: Bearbeitungszeit Schreiben + Sprachmittlung
+            wert: 285 Minuten inkl. 15 Minuten Lese- und Auswahlzeit
+            zitat: "Die Gesamtzeit für die Bearbeitung der Prüfungsteile Sprachmittlung und Schreiben umfasst 285 Minuten. Eine Lese- und Auswahlzeit von 15 Minuten für den Prüfungsteil Schreiben ist in dieser Gesamtzeit inbegriffen."
+          - thema: Auswahl
+            wert: Zwei Schreibaufgaben (literarisch/nichtliterarisch) zur Wahl, Sprachmittlung ohne Auswahl
+            zitat: "Die Prüflinge erhalten gleichzeitig eine Prüfungsaufgabe zur Sprachmittlung (keine Auswahlmöglichkeit) sowie zwei Prüfungsaufgaben zum Schreiben (literarischer und nichtliterarischer Text)."
+          - thema: Sprechprüfung
+            wert: Partnerprüfung 20 Minuten, Dreierprüfung 30 Minuten
+            zitat:
+              - "Die Prüfdauer bei Partnerprüfungen beträgt 20 Minuten, bei Dreierprüfungen 30 Minuten."
+              - "Die Prüfdauer beträgt bei Partnerprüfungen insgesamt 20, bei Dreierprüfungen 30 Minuten."
+      - titel: Kernfach – grundlegendes Niveau (schriftlich inkl. Sprechprüfung)
+        niveau: [gA]
+        dok: { 2027: eng-kf-grundlegendes-niveau-pruefungsregelungen, 2028: pruefungsregelungen-eng-kernfach-gn, 2029: pruefungsregelungen-eng-kernfach-gn }
+        fakten:
+          - thema: Prüfungsteile
+            wert: Schreiben 180 Minuten, Sprachmittlung 60 Minuten, Sprechen 30 Minuten
+            zitat: "einem Prüfungsteil Schreiben im Umfang von 180 Minuten, einem Prüfungsteil Sprachmittlung im Umfang von 60 Minuten und einem Prüfungsteil Sprechen im Umfang von 30 Minuten."
+          - thema: Bearbeitungszeit Schreiben + Sprachmittlung
+            wert: 255 Minuten inkl. 15 Minuten Lese- und Auswahlzeit
+            zitat: "Die Gesamtzeit für die Bearbeitung der Prüfungsteile Sprachmittlung und Schreiben umfasst 255 Minuten. Eine Lese- und Auswahlzeit von 15 Minuten für den Prüfungsteil Schreiben ist in dieser Gesamtzeit inbegriffen."
+          - thema: Sprechprüfung
+            wert: Partnerprüfung 20 Minuten, Dreierprüfung 30 Minuten
+            zitat:
+              - "Die Prüfdauer bei Partnerprüfungen beträgt 20 Minuten, bei Dreierprüfungen 30 Minuten."
+              - "Die Prüfdauer beträgt bei Partnerprüfungen insgesamt 20, bei Dreierprüfungen 30 Minuten."
+      - titel: Profilfach Englisch
+        niveau: [eA]
+        dok: { 2027: eng-pf-pruefungsregelungen-allg, 2028: pruefungsregelungen-eng-profilfach, 2029: pruefungsregelungen-eng-profilfach }
+        fakten:
+          - thema: Bearbeitungszeit
+            wert: 315 Minuten inkl. 15 Minuten Lese- und Auswahlzeit
+            zitat: "Die Gesamtzeit der schriftlichen Abiturprüfung umfasst 315 Minuten inklusive einer 15-minütigen Lese- und Auswahlzeit für den Prüfungsteil Schreiben."
+          - thema: Aufgabenstellung
+            wert: Prüfungsteil Schreiben dezentral durch die Fachlehrkraft, Sprachmittlung und Sprechen zentral
+            zitat:
+              - "Dieser Prüfungsteil wird gemäß der gültigen 'Checkliste zur Genehmigung' dezentral durch die Fachlehrkraft erstellt"
+              - "Die Prüfungsaufgaben für den Prüfungsteil Schreiben werden gemäß gültiger Checkliste zur Genehmigung dezentral durch die Fachlehrkraft erstellt."
+      - titel: Hilfsmittel (moderne Fremdsprachen)
+        niveau: [eA, gA]
+        dok: { 2027: eng-kf-pf-hilfsmittel-im }
+        fakten:
+          - thema: Wörterbücher
+            wert: Ein- und zweisprachiges Wörterbuch für Textaufgabe und Sprachmittlung; kein Thesaurus
+            zitat: "Ein Thesaurus darf nicht zur Verfügung gestellt werden (weder in gedruckter Form noch als Funktion eines elektronischen Wörterbuchs)."
+          - thema: Sprechprüfung
+            wert: Keine Hilfsmittel
+            zitat: "Für den Prüfungsteil Sprechen im Fach Englisch sind keine Hilfsmittel zugelassen."
+
+  - slug: franzoesisch
+    name: Französisch
+    ordner: franzoesisch
+    pruefungen:
+      - titel: Kernfach/Profilfach – erhöhtes Niveau
+        niveau: [eA]
+        dok: { 2027: fra-kf-pf-erhoehtes-niveau-pruefungsregelungen, 2028: fra-kernfach-en-pruefungsregelungen, 2029: pruefungsregelungen-fra-kernfach-en }
+        fakten:
+          - thema: Prüfungsteile
+            wert: Leseverstehen/Schreiben 210 Minuten und Sprachmittlung 60 Minuten
+            zitat:
+              - "einem Prüfungsteil Leseverstehen / Schreiben im Umfang von 210 Minuten und einem Prüfungsteil Sprachmittlung im Umfang von 60 Minuten"
+              - "einem Prüfungsteil Leseverstehen/Schreiben im Umfang von 210 Minuten und einem Prüfungsteil Sprachmittlung im Umfang von 60 Minuten"
+          - thema: Bearbeitungszeit
+            wert: 285 Minuten inkl. 15 Minuten Lese- und Auswahlzeit
+            zitat:
+              - "Die Gesamtzeit für die Bearbeitung der Prüfungsteile Sprachmittlung und Leseverstehen / Schreiben umfasst 285 Minuten."
+              - "Die Gesamtzeit für die Bearbeitung der Prüfungsteile Sprachmittlung und Leseverstehen/Schreiben umfasst 285 Minuten."
+              - "Die Gesamtzeit für die Bearbeitung der Prüfungsteile Leseverstehen/Schreiben und Sprachmittlung umfasst 285 Minuten."
+      - titel: Kernfach – grundlegendes Niveau
+        niveau: [gA]
+        dok: { 2027: fra-kf-grundlegendes-niveau-pruefungsregelungen, 2028: fra-kernfach-gn-pruefungsregelungen, 2029: pruefungsregelungen-fra-kernfach-gn }
+        fakten:
+          - thema: Prüfungsteile
+            wert: Leseverstehen/Schreiben 180 Minuten und Sprachmittlung 60 Minuten
+            zitat:
+              - "einem Prüfungsteil Leseverstehen / Schreiben im Umfang von 180 Minuten und einem Prüfungsteil Sprachmittlung im Umfang von 60 Minuten"
+              - "einem Prüfungsteil Leseverstehen/Schreiben im Umfang von 180 Minuten und einem Prüfungsteil Sprachmittlung im Umfang von 60 Minuten"
+          - thema: Bearbeitungszeit
+            wert: 255 Minuten inkl. 15 Minuten Lese- und Auswahlzeit
+            zitat:
+              - "Die Gesamtzeit für die Bearbeitung der Prüfungsteile Sprachmittlung und Leseverstehen / Schreiben umfasst 255 Minuten."
+              - "Die Gesamtzeit für die Bearbeitung der Prüfungsteile Sprachmittlung und Leseverstehen/Schreiben umfasst 255 Minuten."
+              - "Die Gesamtzeit für die Bearbeitung der Prüfungsteile Leseverstehen/Schreiben und Sprachmittlung umfasst 255 Minuten."
+
+  - slug: spanisch
+    name: Spanisch
+    ordner: spanisch
+    pruefungen:
+      - titel: Kernfach/Profilfach – erhöhtes Niveau
+        niveau: [eA]
+        dok: { 2027: spa-kf-pf-erhoehtes-niveau-pruefungsregelungen, 2028: spa-kf-pf-en-pruefungsregelungen, 2029: spa-kf-pf-erhoehtes-niveau-pruefungsregelungen }
+        fakten:
+          - thema: Bearbeitungszeit
+            wert: 285 Minuten inkl. 15 Minuten Lese- und Auswahlzeit
+            zitat:
+              - "Die Gesamtzeit der schriftlichen Abiturprüfung umfasst 285 Minuten einschließlich einer 15-minütigen Lese- und Auswahlzeit für den Prüfungsteil Schreiben."
+              - "Die Gesamtzeit für die Bearbeitung der Prüfungsteile Sprachmittlung und Leseverstehen/Schreiben umfasst 285 Minuten."
+          - thema: Zeitanteile
+            wert: Leseverstehen/Schreiben 210 Minuten, Sprachmittlung 60 Minuten
+            zitat:
+              - "sind 210 Minuten anzusetzen, für die Bearbeitung der Sprachmittlungsaufgabe 60 Minuten."
+              - "einem Prüfungsteil Leseverstehen/Schreiben im Umfang von 210 Minuten und einem Prüfungsteil Sprachmittlung im Umfang von 60 Minuten"
+      - titel: Kernfach – grundlegendes Niveau
+        niveau: [gA]
+        dok: { 2027: spa-kf-grundlegendes-niveau-pruefungsregelungen, 2028: spa-kf-gn-pruefungsregelungen, 2029: spa-kf-grundlegendes-niveau-pruefungsregelungen }
+        fakten:
+          - thema: Bearbeitungszeit
+            wert: 255 Minuten inkl. 15 Minuten Lese- und Auswahlzeit
+            zitat:
+              - "Die Gesamtzeit der schriftlichen Abiturprüfung umfasst 255 Minuten einschließlich einer 15-minütigen Lese- und Auswahlzeit für den Prüfungsteil Schreiben."
+              - "Die Gesamtzeit für die Bearbeitung der Prüfungsteile Sprachmittlung und Leseverstehen/Schreiben umfasst 255 Minuten."
+          - thema: Zeitanteile
+            wert: Leseverstehen/Schreiben 180 Minuten, Sprachmittlung 60 Minuten
+            zitat:
+              - "sind 180 Minuten anzusetzen, für die Bearbeitung der Sprachmittlungsaufgabe 60 Minuten."
+              - "einem Prüfungsteil Leseverstehen/Schreiben im Umfang von 180 Minuten und einem Prüfungsteil Sprachmittlung im Umfang von 60 Minuten"
+
+  - slug: daenisch
+    name: Dänisch
+    ordner: daenisch
+    pruefungen:
+      - titel: Kernfach – erhöhtes Niveau
+        niveau: [eA]
+        dok: { 2027: dae-kf-erhoehtes-niveau-pruefungsregelungen, 2028: dae-kf-en-pruefungsregelungen, 2029: pruefungsregelungen-dae-kf-erhoehtes-niveau }
+        fakten:
+          - thema: Prüfungsteile
+            wert: Leseverstehen/Schreiben 210 Minuten und Sprachmittlung 60 Minuten
+            zitat:
+              - "einem Prüfungsteil Leseverstehen / Schreiben im Umfang von 210 Minuten und einem Prüfungsteil Sprachmittlung im Umfang von 60 Minuten"
+              - "einem Prüfungsteil Leseverstehen/Schreiben im Umfang von 210 Minuten und einem Prüfungsteil Sprachmittlung im Umfang von 60 Minuten"
+          - thema: Bearbeitungszeit
+            wert: 285 Minuten inkl. 15 Minuten Lese- und Auswahlzeit
+            zitat:
+              - "Die Gesamtzeit für die Bearbeitung der Prüfungsteile Leseverstehen / Sprachmittlung und Schreiben umfasst 285 Minuten."
+              - "Die Gesamtzeit für die Bearbeitung der Prüfungsteile Leseverstehen/Sprachmittlung und Schreiben umfasst 285 Minuten."
+      - titel: Kernfach – grundlegendes Niveau
+        niveau: [gA]
+        dok: { 2027: dae-kf-grundlegendes-niveau-pruefungsregelungen, 2028: dae-kf-gn-pruefungsregelungen, 2029: pruefungsregelungen-dae-kf-grundlegendes-niveau }
+        fakten:
+          - thema: Prüfungsteile
+            wert: Leseverstehen/Schreiben 180 Minuten und Sprachmittlung 60 Minuten
+            zitat:
+              - "einem Prüfungsteil Leseverstehen / Schreiben im Umfang von 180 Minuten und einem Prüfungsteil Sprachmittlung im Umfang von 60 Minuten"
+              - "einem Prüfungsteil Leseverstehen/Schreiben im Umfang von 180 Minuten und einem Prüfungsteil Sprachmittlung im Umfang von 60 Minuten"
+          - thema: Bearbeitungszeit
+            wert: 255 Minuten inkl. 15 Minuten Lese- und Auswahlzeit
+            zitat:
+              - "Die Gesamtzeit für die Bearbeitung der Prüfungsteile Leseverstehen / Sprachmittlung und Schreiben umfasst 255 Minuten."
+              - "Die Gesamtzeit für die Bearbeitung der Prüfungsteile Leseverstehen/Sprachmittlung und Schreiben umfasst 255 Minuten."
+
+  - slug: latein
+    name: Latein
+    ordner: latein
+    pruefungen:
+      - titel: Kernfach – erhöhtes Niveau
+        niveau: [eA]
+        dok: pruefungsregelungen-latein-en
+        fakten:
+          - thema: Bearbeitungszeit
+            wert: 300 Minuten; Übersetzung in der Regel zwei Drittel, Aufgabenteil ein Drittel
+            zitat: "Die Bearbeitungszeit beträgt 300 Minuten. Die Übersetzung beansprucht in der Regel zwei Drittel, die Bearbeitung des Aufgabenteils ein Drittel der verfügbaren Arbeitszeit."
+          - thema: Auswahl
+            wert: Die Fachlehrkraft wählt eine von zwei Klausuren für die Prüfungsgruppe
+            zitat: "Der Fachlehrkraft werden zwei Klausuren zu unterschiedlichen Themen (s. u.) vorgelegt. Sie wählt eine für ihre Prüfungsgruppe aus."
+          - thema: Hilfsmittel
+            wert: Lateinisch-deutsches Schülerwörterbuch mit Formentabellen und Rechtschreibwörterbuch
+            zitat: "Als Hilfsmittel sind ein lateinisch-deutsches Schülerwörterbuch mit Formentabellen sowie ein Rechtschreibwörterbuch zugelassen."
+      - titel: Kernfach – grundlegendes Niveau
+        niveau: [gA]
+        dok: pruefungsregelungen-latein-gn
+        fakten:
+          - thema: Bearbeitungszeit
+            wert: 240 Minuten
+            zitat: "Die Bearbeitungszeit beträgt 240 Minuten."
+          - thema: Hilfsmittel
+            wert: Lateinisch-deutsches Schülerwörterbuch mit Formentabellen und Rechtschreibwörterbuch
+            zitat: "Als Hilfsmittel sind ein lateinisch-deutsches Schülerwörterbuch mit Formentabellen sowie ein Rechtschreibwörterbuch zugelassen."
+
+  - slug: biologie
+    name: Biologie
+    ordner: biologie
+    pruefungen:
+      - titel: Schriftliche Prüfung – erhöhtes Anforderungsniveau (zentral)
+        niveau: [eA]
+        dok: pruefungsregelungen-biologie
+        fakten:
+          - thema: Bearbeitungszeit
+            wert: 300 Minuten inklusive Auswahlzeit; bei fachpraktischem Anteil bis zu 60 Minuten mehr
+            zitat: "Die Dauer der schriftlichen Abiturprüfung umfasst insgesamt 300 Minuten inklusive Auswahlzeit."
+          - thema: Auswahl
+            wert: Vier Aufgaben, der Prüfling wählt drei
+            zitat: "Unter diesen vier Aufgaben wählt der Prüfling drei Aufgaben als seine Prüfungsaufgabe aus."
+          - thema: Hilfsmittel
+            wert: Wissenschaftlicher Taschenrechner, Zeichengeräte, deutsches Wörterbuch
+            zitat: "Ferner sind Zeichengeräte und ein deutsches Wörterbuch zugelassen."
+      - titel: Grundlegendes Niveau (nur Abiturprüfung gemäß APVO-EW, dezentral)
+        niveau: [gA]
+        dok: pruefungsregelungen-biologie
+        fakten:
+          - thema: Geltungsbereich
+            wert: Nur in der Abiturprüfung gemäß APVO-EW, mit dezentral gestellten Aufgaben
+            zitat: "In der Abiturprüfung gemäß APVO-EW kann eine schriftliche Prüfung im Fach Biologie auf grundlegendem Niveau stattfinden. Diese wird mit dezentral gestellten Aufgaben durchgeführt."
+          - thema: Bearbeitungszeit
+            wert: 255 Minuten inklusive Auswahlzeit
+            zitat: "Die Dauer der schriftlichen Abiturprüfung umfasst insgesamt 255 Minuten inklusive Auswahlzeit."
+
+  - slug: chemie
+    name: Chemie
+    ordner: chemie
+    pruefungen:
+      - titel: Schriftliche Prüfung – erhöhtes Anforderungsniveau (zentral)
+        niveau: [eA]
+        dok: pruefungsregelungen-chemie
+        fakten:
+          - thema: Bearbeitungszeit
+            wert: 300 Minuten inklusive Auswahlzeit; bei fachpraktischem Anteil bis zu 60 Minuten mehr
+            zitat: "Die Dauer der schriftlichen Abiturprüfung umfasst insgesamt 300 Minuten inklusive Auswahlzeit."
+          - thema: Auswahl
+            wert: Vier Aufgaben, jeder Prüfling wählt drei
+            zitat: "Unter diesen vier Aufgaben wählt jeder Prüfling drei Aufgaben als seine Prüfungsaufgabe aus."
+          - thema: Hilfsmittel
+            wert: Formeldokument und wissenschaftlicher Taschenrechner
+            jahre: [2027, 2028]
+            zitat: "Die Aufgaben werden von den Prüflingen mit einem Ihnen zur Verfügung gestellten Formeldokument und einem wissenschaftlichen Taschenrechner gelöst"
+          - thema: Hilfsmittel
+            wert: Mathematisch-naturwissenschaftliche Formelsammlung der KMK und wissenschaftlicher Taschenrechner
+            jahre: [2029]
+            zitat: "Die Aufgaben werden von den Prüflingen mit der mathematisch-naturwissenschaftlichen Formelsammlung der KMK und einem wissenschaftlichen Taschenrechner gelöst"
+      - titel: Grundlegendes Niveau (nur Abiturprüfung gemäß APVO-EW, dezentral)
+        niveau: [gA]
+        dok: pruefungsregelungen-chemie
+        fakten:
+          - thema: Geltungsbereich
+            wert: Nur in der Abiturprüfung gemäß APVO-EW, mit dezentral gestellten Aufgaben
+            zitat: "In der Abiturprüfung gemäß APVO-EW kann eine schriftliche Prüfung im Fach Chemie auf grundlegendem Niveau stattfinden. Diese wird mit dezentral gestellten Aufgaben durchgeführt."
+          - thema: Bearbeitungszeit
+            wert: 255 Minuten inklusive Auswahlzeit
+            zitat: "Die Dauer der schriftlichen Abiturprüfung umfasst insgesamt 255 Minuten inklusive Auswahlzeit."
+
+  - slug: physik
+    name: Physik
+    ordner: physik
+    pruefungen:
+      - titel: Schriftliche Prüfung – erhöhtes Anforderungsniveau (zentral)
+        niveau: [eA]
+        dok: pruefungsregelungen-physik
+        fakten:
+          - thema: Bearbeitungszeit
+            wert: 300 Minuten inklusive Auswahlzeit; bei fachpraktischem Anteil bis zu 60 Minuten mehr
+            zitat: "Die Dauer der schriftlichen Abiturprüfung umfasst insgesamt 300 Minuten inklusive Auswahlzeit."
+          - thema: Auswahl
+            wert: Vier Aufgaben, jeder Prüfling wählt drei
+            zitat: "Unter diesen vier Aufgaben wählt jeder Prüfling drei Aufgaben als seine Prüfungsaufgabe aus."
+          - thema: Hilfsmittel
+            wert: Formeldokument und wissenschaftlicher Taschenrechner
+            zitat: "Die Aufgaben werden von den Prüflingen mit einem ihnen zur Verfügung gestellten Formeldokument und einem wissenschaftlichen Taschenrechner gelöst"
+      - titel: Grundlegendes Niveau (nur Abiturprüfung gemäß APVO-EW, dezentral)
+        niveau: [gA]
+        dok: pruefungsregelungen-physik
+        fakten:
+          - thema: Geltungsbereich
+            wert: Nur in der Abiturprüfung gemäß APVO-EW, mit dezentral gestellten Aufgaben
+            zitat: "Diese wird mit dezentral gestellten Aufgaben durchgeführt."
+          - thema: Bearbeitungszeit
+            wert: 255 Minuten inklusive Auswahlzeit
+            zitat: "Die Dauer der schriftlichen Abiturprüfung umfasst insgesamt 255 Minuten inklusive Auswahlzeit."
+
+  - slug: geographie
+    name: Geographie
+    ordner: geographie
+    pruefungen:
+      - titel: Schriftliche Prüfung (dezentral)
+        niveau: [eA, gA]
+        dok: pruefungsregelungen-geographie
+        fakten:
+          - thema: Bearbeitungszeit eA
+            wert: 300 Minuten (Profilfach gemäß OAPVO bzw. eA gemäß APVO-EW)
+            zitat: "In der schriftlichen Prüfung auf erhöhtem Anforderungsniveau (Profilfach gemäß OAPVO bzw. Prüfungsfach auf erhöhtem Anforderungsniveau gemäß APVO-EW) beträgt die Bearbeitungszeit 300 Minuten."
+          - thema: Bearbeitungszeit gA
+            wert: 240 Minuten (nur gemäß APVO-EW)
+            zitat: "In der schriftlichen Prüfung auf grundlegendem Anforderungsniveau gemäß APVO-EW beträgt die Bearbeitungszeit 240 Minuten."
+          - thema: Aufgabenauswahl
+            wert: Zwei Vorschläge werden eingereicht, einer genehmigt; Prüflinge erhalten eine Aufgabe
+            jahre: [2027, 2028]
+            zitat: "Der Schulaufsichtsbehörde sind jeweils zwei materialgebundene Aufgabenvorschläge einzureichen. Es wird ein Aufgabenvorschlag zur Bearbeitung durch die Prüflinge genehmigt."
+          - thema: Aufgabenauswahl
+            wert: Zwei Vorschläge werden eingereicht; beide werden genehmigt und einer ausgewählt
+            jahre: [2029]
+            zitat: "Es werden beide Aufgabenvorschläge zur Bearbeitung durch die Prüflinge genehmigt und einer ausgewählt."
+          - thema: Hilfsmittel
+            wert: Rechtschreibwörterbuch (Deutsch) und aktueller Atlas
+            jahre: [2027]
+            zitat: "Allen Prüflingen steht ein Rechtschreibwörterbuch (Deutsch) und ein aktueller Atlas zur Verfügung."
+          - thema: Hilfsmittel
+            wert: Rechtschreibwörterbuch (Deutsch) und der an der Schule in der Qualifikationsphase überwiegend verwendete Atlas (gleiche Auflage für alle)
+            jahre: [2028, 2029]
+            zitat: "Allen Prüflingen steht ein Rechtschreibwörterbuch (Deutsch) und der an der Schule in der Qualifikationsphase überwiegend verwendete Atlas in einer für alle Prüflinge gleichen Auflage zur Verfügung."
+
+  - slug: geschichte
+    name: Geschichte
+    ordner: geschichte
+    pruefungen:
+      - titel: Schriftliche Prüfung (dezentral)
+        niveau: [eA, gA]
+        dok: pruefungsregelungen-geschichte
+        fakten:
+          - thema: Bearbeitungszeit eA
+            wert: 300 Minuten (Profilfach gemäß OAPVO bzw. eA gemäß APVO-EW)
+            zitat: "In der schriftlichen Prüfung auf erhöhtem Anforderungsniveau (Profilfach gemäß OAPVO bzw. Prüfungsfach auf erhöhtem Anforderungsniveau gemäß APVO-EW) beträgt die Bearbeitungszeit 300 Minuten."
+          - thema: Bearbeitungszeit gA
+            wert: 240 Minuten (nur gemäß APVO-EW)
+            zitat: "In der schriftlichen Prüfung auf grundlegendem Anforderungsniveau gemäß APVO-EW beträgt die Bearbeitungszeit 240 Minuten."
+          - thema: Aufgabenauswahl
+            wert: Zwei Vorschläge werden eingereicht, einer genehmigt
+            jahre: [2027, 2028]
+            zitat: "Der Schulaufsichtsbehörde sind jeweils zwei materialgebundene Aufgabenvorschläge einzureichen. Es wird ein Aufgabenvorschlag zur Bearbeitung durch die Prüflinge genehmigt."
+          - thema: Aufgabenauswahl
+            wert: Zwei Vorschläge werden eingereicht; beide werden genehmigt und einer ausgewählt
+            jahre: [2029]
+            zitat: "Es werden beide Aufgabenvorschläge zur Bearbeitung durch die Prüflinge genehmigt und einer ausgewählt."
+          - thema: Hilfsmittel
+            wert: Rechtschreibwörterbuch (Deutsch)
+            zitat: "Allen Prüflingen steht ein Rechtschreibwörterbuch (Deutsch) zur Verfügung."
+
+  - slug: wirtschaft-politik
+    name: Wirtschaft/Politik
+    ordner: wirtschaft-politik
+    pruefungen:
+      - titel: Schriftliche Prüfung (dezentral)
+        niveau: [eA, gA]
+        dok: pruefungsregelungen-wirtschaft-politik
+        fakten:
+          - thema: Bearbeitungszeit eA
+            wert: 300 Minuten (Profilfach gemäß OAPVO bzw. eA gemäß APVO-EW)
+            zitat: "In der schriftlichen Prüfung auf erhöhtem Anforderungsniveau (Profilfach gemäß OAPVO bzw. Prüfungsfach auf erhöhtem Anforderungsniveau gemäß APVO-EW) beträgt die Bearbeitungszeit 300 Minuten."
+          - thema: Bearbeitungszeit gA
+            wert: 240 Minuten (nur gemäß APVO-EW)
+            zitat: "In der schriftlichen Prüfung auf grundlegendem Anforderungsniveau gemäß APVO-EW beträgt die Bearbeitungszeit 240 Minuten."
+          - thema: Aufgabenauswahl
+            wert: Zwei Vorschläge werden eingereicht, einer genehmigt
+            zitat: "Der Schulaufsichtsbehörde sind jeweils zwei materialgebundene Aufgabenvorschläge einzureichen. Es wird ein Aufgabenvorschlag zur Bearbeitung durch die Prüflinge genehmigt."
+          - thema: Hilfsmittel
+            wert: Rechtschreibwörterbuch (Deutsch)
+            zitat: "Allen Prüflingen steht ein Rechtschreibwörterbuch (Deutsch) zur Verfügung."
+
+  - slug: informatik
+    name: Informatik
+    ordner: informatik
+    pruefungen:
+      - titel: Schriftliche Prüfung – erhöhtes Anforderungsniveau (dezentral)
+        niveau: [eA]
+        dok: pruefungsregelungen-informatik
+        fakten:
+          - thema: Bearbeitungszeit
+            wert: 300 Minuten; bei genehmigtem Antrag höchstens 330 Minuten
+            zitat: "Die schriftliche Abiturprüfung auf erhöhtem Anforderungsniveau dauert 300 Minuten."
+          - thema: Aufbau
+            wert: Zwei genehmigte Aufgaben, alle werden bearbeitet
+            zitat: "Die Schule erhält eine Prüfungsaufgabe, die aus zwei genehmigten Aufgaben besteht und den Prüflingen schriftlich vorgelegt wird. Die Schülerinnen und Schüler bearbeiten alle vorgelegten Aufgaben."
+          - thema: Grundlegendes Niveau
+            wert: Schriftliche Prüfung auf grundlegendem Niveau nicht vorgesehen
+            zitat: "Eine schriftliche Abiturprüfung auf grundlegendem Niveau ist in der aktuellen OAPVO bzw. AGVO nicht vorgesehen."
+          - thema: Hilfsmittel
+            wert: Taschenrechner (Vorgaben Mathematik), zugelassene Formelsammlung, Wörterbuch der deutschen Sprache
+            zitat: "Neben einem Taschenrechner sind eine für das Zentralabitur im Fach Mathematik zugelassene Formelsammlung und ein Wörterbuch der deutschen Sprache als Hilfsmittel zugelassen."
+
+  - slug: kunst
+    name: Kunst
+    ordner: kunst
+    pruefungen:
+      - titel: Schriftliche Prüfung (dezentral)
+        niveau: [eA]
+        dok: pruefungsregelungen-kunst
+        fakten:
+          - thema: Bearbeitungszeit
+            wert: 300 Minuten nach 15 Minuten Einlesezeit
+            zitat: "Die Prüfungszeit beträgt 300 Minuten. Sie beginnt nach einer Einlesezeit von 15 Minuten."
+          - thema: Verlängerung
+            wert: Auf Antrag um eine Stunde verlängerbar
+            zitat: "Die Arbeitszeit kann auf Antrag um eine Stunde verlängert werden."
+          - thema: Aufgabenvorschläge
+            wert: Drei Vorschläge werden eingereicht
+            zitat: "Der Schulaufsichtsbehörde werden drei Aufgabenvorschläge eingereicht."
+
+  - slug: musik
+    name: Musik
+    ordner: musik
+    pruefungen:
+      - titel: Schriftliche Prüfung (dezentral)
+        niveau: [eA]
+        dok: pruefungsregelungen-musik
+        fakten:
+          - thema: Bearbeitungszeit
+            wert: 300 Minuten, Beginn nach einmaligem Vorspielen der Musikbeispiele
+            zitat: "Die Prüfungszeit beträgt 300 Minuten. Sie beginnt, wenn die Musikbeispiele zu den beiden zur Wahl stehenden Aufgaben einmal für alle vorgespielt worden sind."
+          - thema: Auswahl
+            wert: Zwei genehmigte Aufgaben zur Wahl
+            zitat: "Die Schulaufsichtsbehörde genehmigt zwei Aufgaben, die den Prüflingen zur Wahl angeboten werden."
+
+  - slug: sport
+    name: Sport
+    ordner: sport
+    pruefungen:
+      - titel: Schriftliche Prüfung im Profilfach Sport (dezentral)
+        niveau: [eA]
+        dok: pruefungsregelungen-sport
+        fakten:
+          - thema: Bearbeitungszeit
+            wert: 300 Minuten
+            zitat: "In der schriftlichen Prüfung auf erhöhtem Anforderungsniveau beträgt die Bearbeitungszeit 300 Minuten."
+          - thema: Aufgabenstellung
+            wert: Dezentral; zwei Aufgabenvorschläge der Sportlehrkraft
+            zitat: "Die schriftliche Abiturprüfung findet dezentral statt."

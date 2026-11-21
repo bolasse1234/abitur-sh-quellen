@@ -1,0 +1,65 @@
+        Anlage 3.2 (zu §§ 25 Absatz 3 Satz 3, § 26 Absatz 1 und 3, 27 Absatz 2 AGVO)
+
+
+      Berechnung der Gesamtqualifikation
+      Die Leistungen der vier Schulhalbjahre der Qualifikationsphase und die Leistungen
+      der Abiturprüfung werden in ein Verhältnis 2:1 gesetzt. Dabei sind in der Qualifika-
+      tionsphase (Block I) maximal 600 Punkte und in der Abiturprüfung (Block II) maxi-
+      mal 300 Punkte zu erreichen. In der Gesamtqualifikation sind somit insgesamt
+      höchstens 900 Punkte erreichbar und müssen mindestens 300 Punkte erzielt wer-
+      den.1
+
+
+      Berechnung des Ergebnisses der Qualifikationsphase (Block I):
+      Bei maximal 15 Punkten in einem Fach pro Schulhalbjahr werden bei 24 Schul-
+      halbjahresergebnissen, von denen die acht Ergebnisse aus den beiden Fächern
+      auf erhöhtem Anforderungsniveau doppelt, die übrigen einfach gewichtet werden,
+      maximal 32 x 15 = 480 Punkte erreicht. Damit in Block I 600 Punkte erreichbar
+      sind, ist im Falle von 24 Schulhalbjahresergebnissen mit der o.g. Gewichtung die
+      Punktsumme mit dem Faktor 40/32 zu multiplizieren.
+      Somit ergibt sich folgende Formel für die Berechnung der Gesamtpunktzahl in
+      Block I:
+
+
+      EI     P ∙40
+      =      S
+
+      Dabei sind:
+      E I = (Gesamt-)Ergebnis Block I
+      P = Erzielte Punktsumme aus den eingebrachten 24 Schulhalbjahresergebnissen
+      (Ergebnisse aus den Fächern auf erhöhtem Anforderungsniveau gehen doppelt ge-
+      wichtet, d.h.zweifach ein)
+      S = Anzahl der Schulhalbjahresergebnisse (Ergebnisse aus doppelt gewichteten
+      Fächern werden auch hier doppelt gezählt)
+      Es wird auf eine ganzzahlige Punktzahl gerundet, d. h. ab der Dezimalen 5 wird
+      aufgerundet.
+
+      Berechnung des Ergebnisses der Abiturprüfung (Block II):
+      Im Falle von vier Prüfungen werden die Ergebnisse jeder Prüfung fünffach, im Falle
+      von fünf Prüfungen vierfach gewichtet. So ergibt sich für die Berechnung
+          bei vier Prüfungen:
+           E II = 5xPF + 5xPF + 5xPF + 5xPF
+                          1          2          3          4
+
+
+
+
+1
+    Ziffer 9 der „Vereinbarung über die Gestaltung der Oberstufe und der Abiturprüfung“ (Beschluss der Kultusminis-
+terkonferenz vom 07. Juli 1972 i. d. F. vom 16. März 2023)
+   bei fünf Prüfungen:
+    E II = 4xPF + 4xPF + 4xPF + 4xPF + 4xPF
+              1        2       3         4    5
+
+
+
+
+Dabei sind:
+E II = (Gesamt-)Ergebnis Block II
+PF = Erzielte Punkte in einer Prüfung.
+Bei nichtganzzahligen Werten von PF wird nach Multiplikation mit dem Faktor 4
+oder 5 auf ein ganzzahliges Ergebnis gerundet, das heißt, ab der Dezimalen 5 wird
+aufgerundet.
+Berechnung des Gesamtergebnisses (E):
+E = E I + E II
+

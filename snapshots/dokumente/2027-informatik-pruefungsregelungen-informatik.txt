@@ -1,0 +1,967 @@
+11.08.2025
+
+Regelungen für die Abiturprüfung im Fach Informatik
+in den Jahren 2027 und 2028
+Auf der Grundlage der Landesverordnung über die Gestaltung der Oberstufe und der
+Abiturprüfung in den Gymnasien und Gemeinschaftsschulen (OAPVO), der „Einheitlichen Prüfungsanforderungen in der Abiturprüfung Informatik“ (EPA) der Kultusministerkonferenz (KMK) und der zugehörigen Fachanforderungen des Landes
+Schleswig-Holstein werden die folgenden Regelungen für die Abiturprüfung im Fach
+Informatik getroffen.
+1. Fachliche Qualifikationen
+Die Prüfungsaufgabe in der schriftlichen wie in der mündlichen Abiturprüfung ist so
+zu stellen, dass ihre Bearbeitung den Nachweis der in den Fachanforderungen
+Informatik beschriebenen Kompetenzen erfordert. Dabei sind in jeder Aufgabe neben
+den inhaltsbezogenen Kompetenzen die prozessbezogenen Kompetenzen (Fachmethoden, Kommunikation, Reflexion) angemessen zu berücksichtigen. Die
+Aufgaben beziehen sich auf die vier in den Fachanforderungen genannten
+Inhaltsbereiche „Betriebs- und Kommunikationssysteme“, „Algorithmen und
+Datenstrukturen“, „Datenbanken“ sowie „Softwareentwicklung“.
+2. Schriftliche Abiturprüfung auf erhöhtem Anforderungsniveau 1 im Profil
+gebenden Fach Informatik
+Eine Prüfungsaufgabe der schriftlichen Abiturprüfung ist die Gesamtheit dessen, was
+ein Prüfling zu bearbeiten hat. Sie muss aus dem Unterricht in der Oberstufe mit dem
+Schwerpunkt auf der Qualifikationsphase erwachsen.
+2.1. Struktur der Prüfungsaufgabe
+Die Prüfungsaufgabe setzt sich aus unabhängig voneinander bearbeitbaren Aufgaben zusammen, die den gleichen Zeitumfang beanspruchen und in der Bewertung
+gleich zu gewichten sind. Der Schwerpunkt jeder Aufgabe bezieht sich auf einen der
+Eine schriftliche Abiturprüfung auf grundlegendem Niveau ist in der aktuellen OAPVO bzw. AGVO nicht
+vorgesehen. Schulen, die der APVO-EW unterliegen, haben (z.Z.) keine schriftliche Informatikprüfung.
+
+1
+
+Prüfungsregelungen Abitur Informatik 2027 & 2028
+
+Seite 1
+
+MBWFK, III 329, Martin Baudach
+
+in den Fachanforderungen genannten Inhaltsbereiche (vgl. 1.). Die Prüfungsaufgabe
+muss zwei der vier Inhaltsbereiche zum Schwerpunkt haben.
+2.2. Art und Umfang der Aufgaben
+Die Aufgaben folgen den Vorgaben der Fachanforderungen. Sie geben dem Prüfling
+Gelegenheit, ein möglichst breites Spektrum an Kompetenzen und Qualifikationen
+nachzuweisen oder anzuwenden. Sie dürfen nicht im Unterricht verwendet worden
+sein.
+Es sind unter anderem folgende Arten von Aufgaben möglich: Aufgaben mit
+praktischem Anteil (gegebenenfalls mit Rechnerbenutzung), Auswertung vorgelegten
+Materials, Anwendung erworbener Qualifikationen auf eine bisher nicht behandelte
+Problemstellung. Eine Mischform dieser Aufgabenarten ist zulässig. Aufgaben, deren
+Lösung ausschließlich die Aufsatzform verlangt, sind nicht geeignet.
+Jede Aufgabe für die schriftliche Abiturprüfung muss folgende Bedingungen erfüllen:
+•
+•
+
+•
+•
+
+•
+•
+•
+•
+
+•
+
+Im Zentrum der Aufgabe steht die Überprüfung des informatischen
+Verständnisses.
+Die Aufgabe bezieht sich auf die in den Fachanforderungen beschriebenen
+inhaltsbezogenen Kompetenzen unter angemessener Berücksichtigung der
+prozessbezogenen Kompetenzbereiche, so dass informatisches Arbeiten in
+der Oberstufe in seiner Komplexität geprüft wird.
+Die Aufgabe berücksichtigt alle drei Anforderungsbereiche.
+Es sind übergreifende Aufgabenteile möglich, die aus einem einzelnen
+Inhaltsbereich hinausführen, den Schwerpunkt der Aufgabe jedoch nicht
+verändern dürfen.
+Bei der Formulierung der Aufgabe werden ausschließlich die vorgegebenen
+Operatoren verwendet.
+Die Aufgabe enthält nicht ausschließlich Operatoren, die Erläuterungen durch
+Texte verlangen.
+Die Aufgaben können in Teilaufgaben gegliedert sein, die zueinander in
+Beziehung stehen sollen.
+Die Teilaufgaben einer Aufgabe sind unabhängig voneinander lösbar. Falls
+erforderlich, können Zwischenergebnisse in der Aufgabenstellung enthalten
+sein.
+Haben Prüflinge bei der Rechnerbenutzung Probleme, so darf dies keinen
+wesentlichen Einfluss auf das Bearbeiten anderer Teilaufgaben haben.
+
+2.3. Zugelassene Hilfsmittel
+Es ist ein wissenschaftlicher Taschenrechner zugelassen, der die Vorgaben im
+Zentralabitur des Faches Mathematik erfüllt. Für den Einsatz des Taschenrechners
+
+Prüfungsregelungen Abitur Informatik 2027 & 2028
+
+Seite 2
+
+MBWFK, III 329, Martin Baudach
+
+und die Bewertung von rechnerischen Lösungen in den Aufgaben gelten
+grundsätzlich ebenfalls die Vorgaben für das Zentralabitur im Fach Mathematik.
+Wenn durch die Aufgaben nichts Anderes vorgegeben wird, ist ein nicht vernetzter
+Rechner (PC, Laptop, Tablet etc.) zugelassen, der ein Ausführen von für die Aufgaben unzulässigen Programmen oder „Apps“ verhindert. Hierbei ist insbesondere
+ein möglicherweise missbräuchlicher Einsatz von KI-Software zu antizipieren. Die Art
+der Sicherstellung der genannten Eigenschaften ist – wie unter „2.6. Einzureichende
+Unterlagen“ dargelegt – zu erläutern.
+Neben einem Taschenrechner sind eine für das Zentralabitur im Fach Mathematik
+zugelassene Formelsammlung und ein Wörterbuch der deutschen Sprache als
+Hilfsmittel zugelassen.
+2.4. Hinweise zum Erstellen von Prüfungsaufgaben
+Jede Aufgabe der Prüfungsaufgabe steht unter einem zusammenfassenden Thema.
+Sie ist in höchstens vier Teilaufgaben untergliedert, die von den Prüflingen eine
+selbstständige Planung bei der Bewältigung der Aufgabe verlangen, so dass ein
+möglichst breites Spektrum von Kompetenzen nachgewiesen werden kann. Jede
+Teilaufgabe darf maximal drei Operatoren enthalten.
+Die Verwendung der im Anhang vorgelegten Operatoren ist verbindlich.
+In den Aufgaben der Prüfungsaufgabe wird das erhöhte Anforderungsniveau stets
+durch den Grad der fachlichen Komplexität, nicht aber durch den Umfang der
+Aufgaben realisiert.
+Eine Aufgabe der Prüfungsaufgabe erreicht dann ein angemessenes Niveau, wenn
+die Summen der Gewichtungseinheiten in den Anforderungsbereichen I, II und III im
+Verhältnis 4:5:1 stehen. Es ist darauf zu achten, dass das Fehlen von Ergebnissen
+im Anforderungsbereich III die Lösung anderer Teilaufgaben nicht verhindert.
+Deshalb sollten die Teilaufgaben im Anforderungsbereich III vorzugsweise an das
+Ende einer Aufgabe gestellt werden.
+Zugelassene Hilfsmittel sind in der Aufgabenstellung anzugeben.
+2.5. Aufgabenvorschläge
+Für die schriftliche Abiturprüfung ist der Schulaufsichtsbehörde ein Vorschlag
+bestehend aus vier Aufgaben mit Erwartungshorizont vorzulegen. Die Aufgaben des
+Vorschlages müssen mindestens drei der vier Inhaltsbereiche „Betriebs- und
+Kommunikationssysteme“, „Algorithmen und Datenstrukturen“, „Datenbanken“ sowie
+„Softwareentwicklung“ enthalten, darunter mindestens eine Aufgabe mit dem
+Schwerpunkt aus „Algorithmen und Datenstrukturen“. Die Schwerpunkte aller
+Aufgaben müssen sich aus den Inhalten der Qualifikationsphase ergeben und dürfen
+sich nicht ausschließlich auf Inhalte beschränken, die im Verlauf des 2. Jahres der
+Qualifikationsphase behandelt wurden.
+Prüfungsregelungen Abitur Informatik 2027 & 2028
+
+Seite 3
+
+MBWFK, III 329, Martin Baudach
+
+Eingereichte Aufgabenvorschläge dürfen keine Wiederholung von Aufgaben aus
+Leistungsnachweisen in der Oberstufe sein. Sie dürfen frühestens nach vier Jahren
+erneut eingereicht werden.
+Alle Aufgaben sollen dieselbe Summe von 60 Bewertungseinheiten aufweisen und
+die gleiche Bearbeitungszeit von 150 Minuten vorsehen. Der Vorschlag soll
+mindestens eine Aufgabe enthalten, die einen praktischen Anteil (ggf. mit Rechnerbenutzung) enthält. Der von der Rechnerbenutzung abhängige Teil darf ein Viertel
+der Bewertungseinheiten der Prüfungsaufgabe nicht übersteigen.
+Sollen Schülerinnen oder Schüler gemäß gewählter Aufgaben eigenständig an einem
+Rechner arbeiten, so sind sie im Rahmen der Aufgabenstellung auf die erlaubte Art
+der Verwendung und ggf. auf Sicherheitsbestimmungen und deren Einhaltung
+schriftlich hinzuweisen.
+Um sicherzustellen, dass die Prüflinge in der Lage sind, eine Aufgabe mit praktischem Anteil („Schülerexperimente“ gemäß OAPVO § 18 (2) Satz 6) mit der
+erforderlichen Sorgfalt durchzuführen, kann gegebenenfalls ein Antrag auf
+Verlängerung der Arbeitszeit gestellt werden. Im Regelfall sind die Aufgaben jedoch
+so zu gestalten, dass ein Antrag auf Arbeitszeitverlängerung nicht erforderlich ist.
+Die Schulaufsichtsbehörde wählt zwei der vier eingereichten Aufgaben zur Bearbeitung durch die Schülerinnen und Schüler aus. Die Schwerpunkte der beiden
+Aufgaben müssen aus zwei verschiedenen Inhaltsbereichen stammen. Die
+Schulaufsichtsbehörde kann unter Darlegung ihrer Gründe Überarbeitungen oder
+neue Aufgaben verlangen (§ 17 (1) OAPVO).
+Die Aufgaben werden der Prüferin oder dem Prüfer am letzten Schultag vor der
+Prüfung durch die Schulleiterin bzw. den Schulleiter oder eine Vertreterin bzw. einen
+Vertreter übergeben.
+2.6. Einzureichende Unterlagen
+Die Angemessenheit einer Prüfungsaufgabe kann nur vor dem Hintergrund des
+vorangegangenen Unterrichts und weiterer erläuternder Hinweise beurteilt werden.
+Daher sind einzureichen:
+•
+•
+•
+•
+
+•
+
+die Aufgaben der Klausuren (Klassenarbeiten) in der Oberstufe;
+die Reihenfolge der in der Oberstufe behandelten Themen in Bezug auf die
+Fachanforderungen;
+die thematische Ausrichtung des MINT-Profils mit dem Profilfach Informatik in
+der Oberstufe (vgl. § 7 (4) Satz 3 OAPVO);
+relevante organisatorische Voraussetzungen (z.B. Umfang des von den
+Prüflingen belegten Informatik-Unterrichts in der Sek. I und Sek. II, besonderer
+Umfang von Unterrichtsausfall, Lehrerwechsel, allgemeine Programmiererfahrung, durchgeführte Exkursionen und Projekte);
+die Aufgabentexte und gegebenenfalls Materialien;
+
+Prüfungsregelungen Abitur Informatik 2027 & 2028
+
+Seite 4
+
+MBWFK, III 329, Martin Baudach
+
+•
+•
+
+•
+•
+
+•
+
+notwendige Erläuterungen zu den praktischen Aufgaben;
+je Aufgabe ein tabellarischer Bewertungsbogen mit den erwarteten
+Schülerleistungen in Stichworten, den zugeordneten Bewertungseinheiten
+inklusive begründeter Angabe des Anforderungsbereichs; aus dem Bogen
+muss deutlich hervorgehen, wie viele Bewertungseinheiten aus welchem
+Anforderungsbereich für welche Teilleistung in den einzelnen Teilaufgaben
+vorgesehen sind;
+gegebenenfalls der Antrag auf Arbeitszeitverlängerung;
+eine Liste der Hilfsmittel, die über ein Wörterbuch der deutschen Sprache,
+einen wissenschaftlichen Taschenrechner, der auch für das Zentralabitur im
+Fach Mathematik zugelassen ist, und eine Formelsammlung hinaus
+zugelassen werden;
+eine Auflistung aller zum Einsatz kommenden, nicht vernetzten Rechner
+gemäß 2.3. sowie anderer digitaler Medien, die über den wissenschaftlichen
+Taschenrechner hinausgehen; dabei sind die organisatorischen und
+technischen Maßnahmen zur Verhinderung von Täuschungsversuchen und
+die geplanten Vorkehrungen für Rechnerausfälle darzulegen;
+
+2.7. Durchführung der Prüfung
+Die Schule erhält eine Prüfungsaufgabe, die aus zwei genehmigten Aufgaben
+besteht und den Prüflingen schriftlich vorgelegt wird. Die Schülerinnen und Schüler
+bearbeiten alle vorgelegten Aufgaben.
+Die schriftliche Abiturprüfung auf erhöhtem Anforderungsniveau dauert 300 Minuten.
+Wurde einem Antrag auf Arbeitszeitverlängerung durch den Genehmigenden
+stattgegeben, so verlängert sich die Arbeitszeit entsprechend auf höchstens 330
+Minuten.
+Die Bearbeitungszeit beginnt gegebenenfalls nach der Durchführung von
+Vorführungen durch die Lehrkraft.
+2.8. Bewertung von Prüfungsleistungen
+Für die Bewertung der Arbeit ist in jedem Fall der oben genannte Bewertungsbogen
+zu benutzen. Er wird Bestandteil der Prüfungsarbeit.
+Bei der Bewertung der Arbeit können nur ganze oder halbe Bewertungseinheiten
+vergeben werden. Werden Lösungen erbracht, die bei der Beschreibung der
+erwarteten Prüfungsleistung nicht erfasst sind, so sind diese angemessen zu
+berücksichtigen. Dabei ist eine Überschreitung der Anzahl der für den betreffenden
+Aufgabenteil vorgesehenen Gewichtungseinheiten unzulässig.
+Erläuternde, kommentierende und begründende Texte sind unverzichtbare
+Bestandteile der Prüfungsleistung. Mangelhafte Gliederung, Fehler in der
+
+Prüfungsregelungen Abitur Informatik 2027 & 2028
+
+Seite 5
+
+MBWFK, III 329, Martin Baudach
+
+Fachsprache, Ungenauigkeiten in Zeichnungen oder unzureichende oder falsche
+Bezüge zwischen Zeichnungen und Text sind als fachliche Fehler zu werten.
+Für die Bewertung kommt den folgenden Kriterien besonderes Gewicht zu:
+•
+•
+•
+•
+
+Umfang und Qualität der nachgewiesenen fachspezifischen Kompetenzen,
+Verständnis für fachspezifische Probleme sowie die Fähigkeit, Zusammenhänge
+zu erkennen, darzustellen und Sachverhalte zu beurteilen,
+Eigenständigkeit der Auseinandersetzung mit Sachverhalten und
+Problemstellungen, Reflexionsfähigkeit und Kreativität der Lösungsansätze,
+Sicherheit im Umgang mit Fachsprache und Fachmethoden, Schlüssigkeit der
+Argumentation, Verständlichkeit und Qualität der Darstellung (Gedankenführung,
+Klarheit in Aufbau und Sprache, fachsprachlicher Ausdruck).
+
+Die Benotung der Arbeiten erfolgt nach folgendem Bewertungsschlüssel:
+Prozentualer Anteil
+(erreichte Bewertungseinheiten
+bezogen auf die maximal
+möglichen Bewertungseinheiten)
+
+Bewertungseinheiten
+
+Note
+
+Notenpunkte
+
+95 bis 100
+
+114 – 120
+
+sehr gut
+
+15
+
+90 bis unter 95
+
+108 – 113,5
+
+sehr gut
+
+14
+
+85 bis unter 90
+
+102 – 107,5
+
+sehr gut
+
+13
+
+80 bis unter 85
+
+96 – 101,5
+
+gut
+
+12
+
+75 bis unter 80
+
+90 – 95,5
+
+gut
+
+11
+
+70 bis unter 75
+
+84 – 89,5
+
+gut
+
+10
+
+65 bis unter 70
+
+78 – 83,5
+
+befriedigend
+
+09
+
+60 bis unter 65
+
+72 – 77,5
+
+befriedigend
+
+08
+
+55 bis unter 60
+
+66 – 71,5
+
+befriedigend
+
+07
+
+50 bis unter 55
+
+60 – 65,5
+
+ausreichend
+
+06
+
+45 bis unter 50
+
+54 – 59,5
+
+ausreichend
+
+05
+
+40 bis unter 45
+
+48 – 53,5
+
+ausreichend
+
+04
+
+33 bis unter 40
+
+40 – 47,5
+
+mangelhaft
+
+03
+
+27 bis unter 33
+
+32,5 – 39,5
+
+mangelhaft
+
+02
+
+20 bis unter 27
+
+24 – 32
+
+mangelhaft
+
+01
+
+unter 20
+
+0 – 23,5
+
+ungenügend
+
+00
+
+Schwerwiegende und gehäufte Verstöße gegen die sprachliche Richtigkeit oder
+gegen die äußere Form führen zu einem Abzug von bis zu zwei Notenpunkten nach
+der fachlichen Bewertung der Abiturarbeit. Wird die Abiturarbeit im Gesamturteil mit 6
+Notenpunkten beurteilt, wird in der Regel höchstens ein Notenpunkt abgezogen, bei
+Prüfungsregelungen Abitur Informatik 2027 & 2028
+
+Seite 6
+
+MBWFK, III 329, Martin Baudach
+
+einer Beurteilung mit 5 oder weniger Notenpunkten findet ein Punktabzug in der
+Regel nicht statt.
+Zusätzlich gehört in jedem Falle zur Beurteilung auch die verbale Würdigung der
+gezeigten Leistung, in der gegebenenfalls auf besondere Vorzüge oder besondere
+Schwächen verwiesen wird und aus der sich schlüssig ergibt, warum eine Leistung
+nicht mehr mit „ausreichend“ bewertet werden kann.
+Diese verbale Würdigung kann wie folgt formuliert werden:
+Erstkorrektur:
+Gemäß beiliegendem Bewertungsbogen erreichte der Prüfling in
+der Aufgabe mit dem Schwerpunkt ……………
+__ Bewertungseinheiten,
+der Aufgabe mit dem Schwerpunkt ……………
+__ Bewertungseinheiten,
+Summe
+__ Bewertungseinheiten.
+Dies entspricht ___ % der erreichbaren Gesamtzahl und nach dem vorgegebenen
+Bewertungsschlüssel der Note ______________ ( ____ Punkte).
+Die Klausur wurde auf Sprachrichtigkeit und äußere Form überprüft. Es ergibt sich
+ein Abzug von __ Notenpunkten / kein Abzug.
+(Ergänzung der verbalen Würdigung nach Bedarf.)
+Ich benote die vorliegende Arbeit mit der Note _____________ ( _____ Punkte)
+Datum, Ort, Unterschrift
+Zweitkorrektur:
+ gleiche Struktur wie Erstkorrektur
+Während die Eintragungen der Zahlenwerte, der Beurteilungen und der verbalen
+Würdigung in obiger Struktur bei der Erstkorrektorin beziehungsweise beim
+Erstkorrektor auch in gedruckter Form vorliegen können, müssen diese bei der
+Zweitkorrektorin beziehungsweise beim Zweitkorrektor handschriftlich erfolgen. Die
+Eigenständigkeit der Zweitkorrektur muss deutlich ersichtlich sein (§ 19 (3) OAPVO).
+
+Prüfungsregelungen Abitur Informatik 2027 & 2028
+
+Seite 7
+
+MBWFK, III 329, Martin Baudach
+
+3. Mündliche Abiturprüfung
+Die mündliche Prüfungsaufgabe besteht aus zwei Aufgaben, deren Schwerpunkte
+sich auf mindestens zwei der Inhaltsbereiche „Betriebs- und Kommunikationssysteme“, „Algorithmen und Datenstrukturen“, „Datenbanken“ sowie „Softwareentwicklung“ beziehen.
+Die Aufgabenstellung für die mündliche Prüfung unterscheidet sich von der für die
+schriftliche Prüfung. Umfangreiche Codierungen und zeitaufwändige Analysen von
+Materialien sind zu vermeiden. Vielmehr sollen die Prüflinge informatische
+Sachverhalte im freien Vortrag darstellen und im Gespräch dazu Stellung nehmen.
+Die Aufgabenstellung muss einen einfachen Einstieg erlauben und so angelegt sein,
+dass unter Beachtung der Anforderungsbereiche, die auf der Grundlage eines
+Erwartungshorizontes den Aufgabenteilen zugeordnet werden, grundsätzlich jede
+Note erreichbar ist.
+Jede Aufgabe der mündlichen Abiturprüfung muss folgende Bedingungen erfüllen:
+•
+•
+
+•
+•
+
+•
+
+•
+•
+•
+•
+
+•
+•
+
+Im Zentrum der Aufgabe steht die Überprüfung des informatischen
+Verständnisses.
+Die Aufgabe bezieht sich auf die in den Fachanforderungen beschriebenen
+inhaltsbezogenen Kompetenzen unter angemessener Berücksichtigung der
+prozessbezogenen Kompetenzbereiche, so dass informatisches Arbeiten in
+der Oberstufe in seiner Komplexität geprüft wird.
+Die Aufgabe berücksichtigt alle drei Anforderungsbereiche.
+Es sind übergreifende Aufgabenteile möglich, die aus einem einzelnen
+Inhaltsbereich hinausführen, den Schwerpunkt der Aufgabe jedoch nicht
+verändern dürfen.
+Die Aufgabe ist keine inhaltliche Wiederholung von Aufgaben der schriftlichen
+Abiturprüfung oder anderer Leistungsnachweise aus der Oberstufe und
+bezieht sich nicht nur auf Inhalte eines Halbjahres der Qualifikationsphase.
+Bei der Formulierung der Aufgabe werden die vorgegebenen Operatoren
+verwendet.
+Die Aufgabe enthält nicht ausschließlich Operatoren, die Erläuterungen durch
+Texte verlangen.
+Die Aufgaben können in Teilaufgaben gegliedert sein, die zueinander in
+Beziehung stehen sollen.
+Die Teilaufgaben einer Aufgabe sind unabhängig voneinander lösbar. Falls
+erforderlich, können Zwischenergebnisse in der Aufgabenstellung enthalten
+sein.
+Haben Prüflinge bei der Rechnerbenutzung Probleme, so darf dies keinen
+wesentlichen Einfluss auf das Bearbeiten anderer Teilaufgaben haben.
+Es werden Vorkehrungen getroffen zur Verhinderung von Täuschungsversuchen, insbesondere von solchen mit KI-Technologien.
+
+Prüfungsregelungen Abitur Informatik 2027 & 2028
+
+Seite 8
+
+MBWFK, III 329, Martin Baudach
+
+Die Prüferin beziehungsweise der Prüfer kann bei Aufgaben mit Rechnerbenutzung
+eine Verlängerung der Vorbereitungszeit auf höchstens eine Stunde beantragen.
+Über den Antrag entscheidet die Abiturprüfungskommission unter Einbeziehung der
+beziehungsweise des Prüfungsvorsitzenden.
+Die Prüferin oder der Prüfer legt dem Prüfungsausschuss vor der Prüfung einen
+schriftlichen Erwartungshorizont vor, in dem die erwarteten inhaltlichen Ergebnisse
+und Prozesse skizziert werden. Dabei ist anhand der in den Fachanforderungen
+ausgeführten Kriterien (III 6.2., S. 56) im Hinblick auf die vorgelegte Aufgabenstellung
+zu konkretisieren, wann Leistungen mit „ausreichend“ und wann sie mit „gut“ bis
+„sehr gut“ bewertet werden sollen. Darüber hinaus werden im Erwartungshorizont
+Aussagen getroffen zu den unterrichtlichen Voraussetzungen und zur Selbständigkeit
+der Prüfungsleistung.
+Es sind dieselben Hilfsmittel zugelassen wie in der schriftlichen Abiturprüfung.
+4. Präsentationsprüfung
+Bei der Durchführung der Präsentationsprüfung sind die rechtlichen Vorgaben und
+die Bestimmungen der Fachanforderungen zu beachten.
+
+Prüfungsregelungen Abitur Informatik 2027 & 2028
+
+Seite 9
+
+MBWFK, III 329, Martin Baudach
+
+Anlage
+
+Operatoren im Fach Informatik
+Im Folgenden werden Operatoren definiert und durch Beispiele illustriert, die im Fach
+Informatik in Abschlussprüfungen verwendet werden. Diese Operatoren können
+hinsichtlich ihrer Bedeutung durch Zusätze (zum Beispiel „ausführlich“ oder „unter
+Verwendung einer Graphik“) spezifiziert werden.
+Sofern durch den Operator nichts anderes bestimmt ist, ist bei der Bearbeitung der
+Aufgabe das Vorgehen so zu dokumentieren, dass es für eine fachkundige Person
+nachvollziehbar ist.
+Operator
+
+Definition
+
+Beispiele
+
+abschätzen
+
+durch begründete Überlegungen
+Größenordnungen angeben
+
+Schätzen Sie das Zeitverhalten
+des Verfahrens ab, wenn sich die
+Anzahl der zu bearbeitenden
+Daten verdoppelt.
+
+analysieren /
+untersuchen
+
+unter einer gegebenen Fragestellung
+wichtige Bestandteile oder Eigenschaften
+nach fachlich üblichen Kriterien
+herausarbeiten
+
+Analysieren Sie die
+Funktionsweise des Algorithmus.
+
+anwenden
+
+einen bekannten Zusammenhang oder
+eine bekannte Methode auf einen
+(anderen) Sachverhalt beziehen
+
+Wenden Sie einen GreedyAlgorithmus zur Lösung des
+Problems an.
+
+auswerten
+
+Daten, Einzelergebnisse oder sonstige
+Sachverhalte zu einer abschließenden,
+begründeten Gesamtaussage
+zusammenführen
+
+Werten Sie die Tabelle
+hinsichtlich der Fragestellung aus.
+
+begründen
+
+einen Sachverhalt auf Gesetzmäßigkeiten
+bzw. kausale Zusammenhänge
+zurückführen
+
+Begründen Sie die folgenden
+Aussagen.
+
+berechnen
+
+Ergebnisse durch Rechenoperationen
+gewinnen
+
+Berechnen Sie die Größe.
+
+beschreiben
+
+Sachverhalte oder Verfahren in Textform
+unter Verwendung der Fachsprache in
+vollständigen Sätzen in eigenen Worten
+wiedergeben (hier sind auch
+Einschränkungen möglich: Beschreiben
+Sie in Stichworten...)
+
+Beschreiben Sie das RSAVerfahren.
+
+Eine rechnerische, graphische oder
+inhaltliche Lösung generieren
+
+Bestimmen Sie die Anzahl der
+rekursiven Aufrufe.
+
+bestimmen
+
+Prüfungsregelungen Abitur Informatik 2027 & 2028
+
+Seite 10
+
+Untersuchen Sie den Algorithmus
+für die folgenden Beispiele.
+
+Beschreiben Sie die Syntax.
+
+MBWFK, III 329, Martin Baudach
+
+Operator
+
+Definition
+
+Beispiele
+
+beurteilen
+
+zu einem Sachverhalt ein selbstständiges
+Urteil unter Verwendung von Fachwissen
+und Fachmethoden formulieren und
+begründen
+
+Beurteilen Sie symmetrische und
+asymmetrische Verschlüsselung
+hinsichtlich…
+
+bewerten
+
+Sachverhalte, Methoden, Ergebnisse etc.
+an Kriterien messen
+
+Bewerten Sie den Einsatz von
+smarten Sprachassistenten im
+privaten Bereich.
+
+darstellen
+
+Sachverhalte, Zusammenhänge etc.
+strukturiert wiedergeben
+
+Stellen Sie Ihr Ergebnis in einer
+Tabelle dar.
+
+diskutieren /
+erörtern
+
+Argumente zu einer Aussage oder These
+einander gegenüberstellen und abwägen
+
+Diskutieren Sie beide
+Sachverhalte aus rechtlicher
+Sicht.
+
+Beurteilen Sie die These.
+
+Erörtern Sie Vor- und Nachteile
+aus der Sicht des Benutzers.
+entscheiden /
+(aus-) wählen
+
+sich bei Alternativen begründet auf eine
+Möglichkeit festlegen
+
+Entscheiden Sie sich für ein
+Modell
+Wählen Sie ein geeignetes
+Werkzeug.
+
+entwerfen /
+entwickeln
+
+Nach vorgegebenen Bedingungen ein
+sinnvolles Konzept selbständig planen
+bzw. erarbeiten
+
+Entwerfen Sie eine Datenstruktur.
+
+ergänzen
+
+eine vorgegebene Problemlösung
+erweitern
+
+Ergänzen Sie das ER-Modell so,
+dass…
+
+erklären
+
+einen Sachverhalt durch zusätzliche
+Informationen veranschaulichen und
+verständlich machen
+
+Erklären Sie die Funktionsweise
+von Backtracking
+
+erläutern
+
+einen Sachverhalt nachvollziehbar und
+verständlich machen
+
+Erläutern Sie den Nutzen der
+Methode / Prozedur…
+
+Entwerfen Sie ein ER-Modell.
+Entwickeln Sie einen Algorithmus.
+
+Erläutern Sie die
+Syntaxdiagramme
+erstellen /
+konstruieren
+
+herstellen bzw. gestalten eines Systems
+unter vorgegebener Zielsetzung
+
+Erstellen Sie ein
+Klassendiagramm Konstruieren
+Sie einen endlichen Automaten
+
+formulieren /
+schreiben
+
+einen Sachverhalt / eine Problemlösung in
+einer fachspezifischen Form darstellen
+
+Formulieren Sie eine SQLAbfrage.
+Schreiben Sie eine Prozedur.
+
+implementieren
+
+codieren einer Datenstruktur oder eines
+Algorithmus in einer Programmiersprache
+
+Implementieren Sie den
+Suchalgorithmus.
+
+interpretieren
+
+Sachverhalte, Zusammenhänge, Fakten
+oder Daten analysieren und
+deuten/erklären
+
+Interpretieren Sie das
+Histogramm.
+
+Prüfungsregelungen Abitur Informatik 2027 & 2028
+
+Seite 11
+
+MBWFK, III 329, Martin Baudach
+
+Operator
+
+Definition
+
+Beispiele
+
+klassifizieren /
+ordnen
+
+Elemente Klassen zuweisen, in eine
+Struktur bringen, in eine Reihenfolge
+bringen
+
+Klassifizieren Sie die Algorithmen
+entsprechend ihrer Komplexität.
+
+kommentieren
+
+einen gegebenen Sachverhalt oder einen
+gegebenen Algorithmus mit erläuternden
+Hinweisen versehen
+
+Kommentieren Sie den
+Programmcode zeilenweise.
+
+konfigurieren /
+
+eine vorhandene Struktur präzisieren /
+ergänzen / erweitern
+
+Konfigurieren Sie das Programm
+für Ihre Anforderungen.
+
+verfeinern
+
+Konfigurieren Sie die
+Hardwarekomponenten.
+Verfeinern Sie den Grobentwurf.
+
+modellieren
+
+Zu einem Ausschnitt der Realität ein
+informatisches Modell entwerfen
+
+Modellieren Sie das vorgestellte
+Problem mit Hilfe einer
+Datenbank.
+
+nennen / angeben
+
+ohne nähere Erläuterungen und
+Begründungen aufzählen
+
+Nennen Sie drei weitere
+Beispiele.
+Geben Sie den Typ der
+Grammatik an.
+
+präsentieren
+
+vorstellen oder veröffentlichen eines
+Produkts unter informationstechnischen
+Gesichtspunkten
+
+Präsentieren Sie Ihren Entwurf.
+
+protokollieren
+
+Beobachtungen detailgenau und
+fachsprachlich richtig wiedergeben
+
+Protokollieren Sie den
+Programmablauf mit Hilfe einer
+Trace-Tabelle.
+
+testen
+
+systematisch ein gegebenes oder selbst
+erstelltes System auf Fehler untersuchen
+
+Testen Sie das Programm für
+unterschiedliche Ausgangswerte.
+
+überführen
+
+eine Darstellungsform in eine andere
+Darstellungsform bringen
+
+Überführen Sie den Pseudocode
+in eine Programmiersprache.
+
+(über-)prüfen
+
+Sachverhalte an Fakten oder innerer
+Logik messen und eventuelle
+Widersprüche oder Lücken aufdecken
+
+Überprüfen Sie die
+Funktionsweise des Algorithmus.
+
+vereinfachen /
+reduzieren
+
+die Komplexität eines Sachverhalts nach
+bekannten Regeln verringern
+
+Vereinfachen Sie diesen
+booleschen Term.
+Reduzieren Sie den endlichen
+Automaten.
+
+verfeinern
+
+eine vorhandene Struktur präzisieren /
+ergänzen / erweitern
+
+Verfeinern Sie den Grobentwurf /
+das Modell.
+
+vergleichen
+
+nach vorgegebenen oder selbst
+gewählten Gesichtspunkten
+Gemeinsamkeiten, Ähnlichkeiten und
+Unterschiede ermitteln und darstellen
+
+Vergleichen Sie symmetrische
+und asymmetrische
+Verschlüsselung.
+
+Prüfungsregelungen Abitur Informatik 2027 & 2028
+
+Seite 12
+
+Vergleichen Sie diese
+Implementation mit…
+
+MBWFK, III 329, Martin Baudach
+
+Operator
+
+Definition
+
+Beispiele
+
+vervollständigen
+
+einer gegebenen Teillösung fehlende
+Teile hinzufügen
+
+Vervollständigen Sie das
+Syntaxdiagramm.
+
+verwenden
+
+Regeln, Anweisungen oder Hilfsmittel zur
+Lösung eines Problems nutzen
+
+Verwenden Sie Ihr Smartphone
+für die Durchführung der Aufgabe.
+
+zeichnen /
+graphisch
+darstellen /
+skizzieren
+
+die wesentlichen Eigenschaften eines
+Objektes möglichst übersichtlich in einer
+Zeichnung darstellen
+
+Zeichnen Sie den Anfang eines
+Suchbaums.
+
+zeigen
+
+eine Aussage, einen Sachverhalt durch
+Berechnungen, Herleitungen oder
+logische Begründungen bestätigen
+
+Zeigen Sie, dass der Algorithmus
+terminiert.
+
+zusammenfassen
+
+das Wesentliche kurz und übersichtlich
+darstellen
+
+Fassen Sie gleichartige Objekte
+zusammen.
+
+Skizzieren Sie den Graphen.
+Stellen Sie die Kommunikation
+graphisch dar.
+
+Prüfungsregelungen Abitur Informatik 2027 & 2028
+
+Seite 13
+
+MBWFK, III 329, Martin Baudach
+
+

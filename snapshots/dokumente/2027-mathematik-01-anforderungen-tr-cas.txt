@@ -1,0 +1,169 @@
+Mindestanforderungen an einen nicht programmierbaren und nicht graphikfähigen
+wissenschaftlichen Taschenrechner in den Abiturprüfungen ab 2015
+vom August 2012 (in der Fassung vom Juli 2017)
+
+Allg.:
+
+
+
+
+
+Standardfunktionen wie z.B. Rechnen mit Brüchen, Potenzen, Wurzeln,
+trigonometrische Funktionen, Exponentialfunktion, Logarithmen
+Lösen von linearen, quadratischen und kubischen Gleichungen
+Lösen von eindeutig lösbaren Gleichungssystemen (2x2 und 3x3)
+Berechnen von Funktionswerten einer mit Variablen vorgegebenen Funktion (CALCTaste o.ä.) und Anfertigung einer Wertetabelle (unter Vorgabe des Intervalls und der
+Schrittlänge)
+n
+
+
+
+Summenbildung (Berechnung endlicher Summen der Form ∑ …)
+i=1
+
+
+
+Numerisches Lösen von Gleichungen nach Eingabe eines Startwerts
+
+Analysis:
+
+
+
+Numerische Berechnung von Ableitungswerten (einer gegebenen Funktion an einer
+bestimmten Stelle)
+Numerische Berechnung von Integralen (bei gegebenem Integranden und
+vorgegebenen Grenzen)
+
+Analytische Geometrie:
+
+
+Skalarprodukt und Kreuzprodukt von Vektoren
+
+Stochastik:
+
+
+
+
+
+
+
+Berechnung von Mittelwert und Standardabweichung bei eingegebenen Urlisten
+Fakultäten
+Berechnung von Binomialkoeffizienten (nCr – Taste)
+Berechnung von Permutationen (nPr - Taste)
+Berechnung von (kumulierten) Binomialverteilungen (auch für große n und k, z.B.
+n=1000, k=440)
+Berechnung von (kumulierten) Normalverteilungen und inversen Normalverteilungen
+
+1
+
+Vorgaben für den CAS-Einsatz in der schriftlichen Abiturprüfung
+
+Soll in einer Prüfgruppe der schriftlichen Abiturprüfung ein Computer-Algebra-System (CAS)
+zum Einsatz kommen, so hat die unterrichtende Lehrkraft die ministerielle Fachaufsicht zu
+Beginn der Qualifikationsphase unter Verwendung des anliegenden Formblatts auf dem
+Dienstweg zu informieren.
+Diese Mitteilung hat zur Folge, dass die Prüflinge der Prüfgruppe Prüfungsaufgaben erhalten,
+die auf die Verwendung eines CAS hin konzipiert sind.
+Bei der Durchführung einer schriftlichen Abiturprüfung mit einem CAS sind folgende Punkte
+zu beachten.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Beispielaufgaben oder andere Dateien, die von der eingesetzten Software oder für
+diese erstellt wurden, sind zu löschen oder unzugänglich zu machen. Es ist für eine
+hinreichende Anzahl von Ersatzgeräten zu sorgen.
+Handbücher und selbst erstellte Bedienungshilfen dürfen nicht verwendet werden.
+Ebenso darf keine weitere Software als die angegebene eingesetzt werden.
+Die Schule stellt sicher, dass die benutzten Geräte isoliert arbeiten und nicht mit
+anderen Geräten kommunizieren können. Sie dürfen insbesondere weder auf das
+Intra- noch auf das Internet zugreifen können. Darüber hinaus dürfen keine externen
+Datenträger eingesetzt werden. Eine Ausnahme bilden von der Schule ausgegebene
+Datenträger, wenn es technisch sichergestellt ist, dass auf die in den Geräten
+eingebauten Datenträger nicht zugegriffen werden kann. Eine solche technische
+Lösung muss von der Schulaufsicht genehmigt werden.
+Die textliche Dokumentation der Problemlösung durch die Schülerin oder den Schüler
+muss in der Reinschrift so angelegt sein, dass der Gedankengang der Problemlösung
+und deren Durchführung vollständig nachvollziehbar ist. Die Dokumentation ist
+Bestandteil der Problemlösung und geht in die Bewertung der Prüfungsleistung ein.
+Computerausdrucke sind als Bestandteil der Dokumentation nicht zugelassen. Dies
+gilt auch für den Ausdruck von Grafiken.
+Mathematische Objekte wie z.B. Terme müssen in der üblichen mathematischen
+Notation und nicht in der evtl. abweichenden Form der Bildschirmanzeige angegeben
+werden.
+Im Verlaufe der Prüfung vom Schüler bzw. von der Schülerin erstellte und ggf.
+gespeicherte Dateien dürfen nicht zur Korrektur oder Bewertung herangezogen
+werden.
+Die verwendete Technologie muss in den Prüfungsakten vom Prüfer bzw. von der
+Prüferin vermerkt werden.
+
+2
+
+Schuladresse
+
+An das
+Ministerium für Allgemeine und Berufliche Bildung,
+Wissenschaft, Forschung und Kultur des
+Landes Schleswig-Holstein
+– Fachaufsicht Mathematik –
+Mitteilung über den Einsatz eines Computer-Algebra-Systems im Unterricht und damit in
+der schriftlichen Abiturprüfung 20…. im Fach Mathematik
+
+Sehr geehrte Damen und Herren,
+
+hiermit informiere ich Sie über den Einsatz eines Computer-Algebra-Systems (CAS) im
+Unterricht und damit in der schriftlichen Abiturprüfung 20…. im Fach Mathematik. Dazu
+mache ich die folgenden Angaben:
+
+Lerngruppe:
+Anzahl der Schülerinnen und Schüler:
+unterrichtende Lehrkraft im Einführungsjahr:
+unterrichtende Lehrkraft im ersten Jahr der
+Qualifikationsphase:
+
+Im Unterricht und im Abitur soll die folgende CAS-Technologie verwendet werden (bitte
+die genaue Hard- und Software-Konfiguration angeben, in der sich die Geräte
+voraussichtlich während der Prüfung befinden werden):
+
+3
+
+Die Schülerinnen und Schüler der Prüfgruppe
+□ verwenden in der Abiturprüfung eigene Geräte.
+□ verwenden in der Abiturprüfung von der Schule gestellte Geräte.
+
+Die Schülerinnen und Schüler wurden von mir darüber informiert, dass sie im der
+schriftlichen Abiturprüfung spezielle Aufgaben für die Bearbeitung mit einem CAS erhalten.
+Die Hinweise zur Durchführung einer schriftlichen Abiturprüfung mit einem CAS werde ich
+beachten.
+Nach Prüfung versichere ich, dass die Aufgaben der schriftlichen Abiturprüfung der
+vergangenen drei Jahre mit dem vorgesehenen Gerät lösbar sind.
+
+Über wesentliche technische Änderungen (z.B. Herstellerwechsel) werde ich die ministerielle
+Fachaufsicht informieren.
+
+__________________________
+Ort, Datum
+
+___________________________
+Unterschrift der Lehrkraft
+
+__________________________
+Ort, Datum
+
+___________________________
+Unterschrift der Schulleitung
+
+4
+
+
