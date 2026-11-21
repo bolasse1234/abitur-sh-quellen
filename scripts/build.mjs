@@ -443,7 +443,7 @@ function aufgabenseite() {
   for (const q of Object.values(IDX.quellen).filter((x) => x.id.startsWith('pruefungsaufgaben-')).sort((a, b) => b.jahr - a.jahr)) {
     md += `| ${q.jahr} | [Downloadseite](${q.url}) | ${q.zipUrl ? `[${q.zipName}](${q.zipUrl})` : '–'}${q.verlinkt === false ? ' (nicht mehr verlinkt)' : ''} |\n`;
   }
-  md += `\nAus der Landesseite (wörtlich): Die Dokumente enthalten Materialien teils unkenntlich gemacht, „an denen das Ministerium … keine Verwertungsrechte besitzt“ – siehe [Textspiegel der Seite](/seiten/za-aufgaben/).\n\n`;
+  md += `\nHinweis der Landesseite (wörtlich):\n\n> „In den Dokumenten sind aus urheberrechtlichen Gründen die Materialien unkenntlich gemacht, an denen das Ministerium für Allgemeine und Berufliche Bildung, Wissenschaft, Forschung und Kultur des Landes Schleswig-Holstein keine Verwertungsrechte besitzt. Über die jeweiligen Quellenangaben sind die Materialien zu finden.“ — [Textspiegel der Seite](/seiten/za-aufgaben/)\n\n`;
   md += `Für Aufgaben aus dem Gemeinsamen Abituraufgabenpool der Länder verweist die Landesseite auf das IQB: [Abituraufgabenpools](https://www.iqb.hu-berlin.de/de/schule/sekundarstufe-ii/abituraufgabenpools/).\n`;
   addPage('/aufgaben/', { title: 'Prüfungsaufgaben Abitur Schleswig-Holstein – Links zu den Originalen', description: 'Links zu den amtlichen Prüfungsaufgaben (ZIP) der zentral geprüften Fächer im Abitur Schleswig-Holstein.', md, quellen: [qa?.url] });
 }

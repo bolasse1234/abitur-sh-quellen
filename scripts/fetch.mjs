@@ -153,7 +153,7 @@ async function resolveDownloadPage(url, extRe) {
 
 async function doSeite(q, parent = null) {
   const pg = await fetchPage(q.url);
-  const md = `<!-- Quelle: ${q.url} | abgerufen: ${heute} -->\n${pg.markdown}`;
+  const md = `<!-- Quelle: ${q.url} -->\n${pg.markdown}`;
   writeText(p(`snapshots/seiten/${q.id}.md`), md);
   const changed = record(q.id, {
     titel: q.titel || pg.title, seitentitel: pg.title, url: q.url, typ: 'seite', nutzung: q.nutzung, herausgeber: q.herausgeber,
