@@ -1,0 +1,11 @@
+[Unit]
+Description=Abitur-SH-Quellenarchiv: offizielle Quellen abrufen, prüfen, veröffentlichen
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+# Pfad zum geklonten Repository anpassen:
+WorkingDirectory=%h/abitur-sh-quellen
+ExecStart=%h/abitur-sh-quellen/scripts/auto-update.sh
+Nice=10

@@ -67,3 +67,15 @@ hinweise:
     belege:
       - dok: 2027-biologie-pruefungsregelungen-biologie
         zitat: "In der Abiturprüfung gemäß APVO-EW kann eine schriftliche Prüfung im Fach Biologie auf grundlegendem Niveau stattfinden."
+
+  - id: chemie-fachpraktisch
+    typ: Änderung zwischen Jahrgängen
+    titel: Chemie – Regel zur Zeitverlängerung bei fachpraktischem Anteil nur 2027
+    text: >-
+      Die Chemie-Prüfungsregelungen 2027 enthalten den unten zitierten Satz zur Verlängerung der Arbeitszeit
+      um bis zu 60 Minuten bei Wahl einer Aufgabe mit fachpraktischem Anteil. In den Fassungen für 2028 und
+      2029 wurde dieser Satz beim Abruf nicht gefunden (in Biologie 2028 und Physik 2028/2029 ist er enthalten). Ob die
+      Regel anderweitig gilt, lässt sich aus den Dokumenten nicht ablesen – bitte Original prüfen.
+    belege:
+      - dok: 2027-chemie-pruefungsregelungen-chemie
+        zitat: "Wählt ein Prüfling eine Aufgabe, die einen fachpraktischen Anteil hat, kann sich seine individuelle Arbeitszeit um bis zu 60 Minuten erhöhen"

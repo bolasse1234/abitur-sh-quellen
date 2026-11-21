@@ -1,11 +1,10 @@
 name: Quellen aktualisieren
 
-# Ruft wöchentlich alle offiziellen Quellen neu ab, prüft alle Zitate und
-#  - committet direkt auf main und deployt, wenn alle Belege bestätigt sind,
-#  - öffnet sonst einen Pull Request mit dem Prüfbericht (manuelle Durchsicht nötig).
+# Manuell startbar. HINWEIS (Stand 11/2026): schleswig-holstein.de und das juris-Portal sind von
+# GitHub-Actions-Servern aus nicht erreichbar (Timeouts). Die regelmäßige Aktualisierung läuft daher über
+# scripts/auto-update.sh auf einem Rechner in Deutschland (siehe README). Dieser Workflow veröffentlicht nur,
+# wenn der Abruf vollständig gelang (Exit-Code 0) und alle Belege bestätigt sind.
 on:
-  schedule:
-    - cron: "17 4 * * 1"   # montags 04:17 UTC
   workflow_dispatch:
 
 permissions:
@@ -45,6 +44,11 @@ jobs:
           set +e
           npm run verify 2>&1 | tee verify.log
           echo "exit=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+      - name: Abruf gescheitert?
+        if: steps.fetch.outputs.exit == '3'
+        run: |
+          echo "::error::Abruf weitgehend gescheitert (Quellen von GitHub aus nicht erreichbar?) – nichts wird veröffentlicht."
+          exit 1
       - name: Seite bauen
         run: npm run build
       - name: Änderungen?
@@ -53,7 +57,7 @@ jobs:
           git add -A snapshots public data
           if git diff --cached --quiet; then echo "changed=false" >> "$GITHUB_OUTPUT"; else echo "changed=true" >> "$GITHUB_OUTPUT"; fi
       - name: Direkt übernehmen (alle Belege ok)
-        if: steps.diff.outputs.changed == 'true' && steps.verify.outputs.exit == '0'
+        if: steps.diff.outputs.changed == 'true' && steps.verify.outputs.exit == '0' && steps.fetch.outputs.exit == '0'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -61,7 +65,7 @@ jobs:
           git push
           echo "deploy=true" >> "$GITHUB_ENV"
       - name: Pull Request (Belege prüfen!)
-        if: steps.diff.outputs.changed == 'true' && steps.verify.outputs.exit != '0'
+        if: steps.diff.outputs.changed == 'true' && steps.verify.outputs.exit != '0' && steps.fetch.outputs.exit != '3'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

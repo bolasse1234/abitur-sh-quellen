@@ -26,6 +26,7 @@ const heute = today();
 const log = (...a) => console.log(...a);
 const problems = [];
 const seen = new Set();
+const failed = new Set();
 
 function record(id, meta, contentHash) {
   const prev = index.quellen[id] || {};
@@ -51,6 +52,7 @@ function fail(id, meta, err) {
   const prev = index.quellen[id] || {};
   index.quellen[id] = { ...prev, ...meta, id, status: 'fehler', fehler: String(err.message || err).slice(0, 300), fehlerAm: heute };
   seen.add(id);
+  failed.add(id);
   problems.push(`${id}: ${err.message || err}`);
   log(`  ✗ FEHLER ${id}: ${err.message || err}`);
 }
@@ -175,7 +177,7 @@ async function doSeite(q, parent = null) {
     for (const [cid, { href, m }] of hits) {
       if (only && !only.has(cid) && !only.has(q.id)) continue;
       const child = {
-        id: cid, url: href, typ: rule.typ, nutzung: rule.nutzung, herausgeber: q.herausgeber,
+        id: cid, url: href, typ: rule.typ, nutzung: rule.nutzung, herausgeber: rule.typ === 'juris' ? 'juris' : q.herausgeber,
         titel: subst(rule.titel || cid, m), jahr: rule.jahr ? Number(subst(rule.jahr, m)) : null, kurz: rule.kurz || null,
         permaKey: rule.typ === 'juris' ? m[1] : null, ersatzDocId: rule.ersatzDocId || null,
       };
@@ -306,7 +308,9 @@ for (const q of reg.quellen) {
 // Quellen, die nicht mehr verlinkt sind, kennzeichnen (nur bei Vollabruf)
 if (!only) {
   for (const [id, s] of Object.entries(index.quellen)) {
-    if (!seen.has(id) && s.verlinkt !== false) { s.verlinkt = false; s.nichtMehrVerlinktSeit = heute; log(`  – nicht mehr verlinkt: ${id}`); }
+    // nur markieren, wenn die Elternseite in diesem Lauf erfolgreich abgerufen wurde
+    if (!seen.has(id) && s.verlinkt !== false && s.eltern && seen.has(s.eltern) && !failed.has(s.eltern)) { s.verlinkt = false; s.nichtMehrVerlinktSeit = heute; log(`  – nicht mehr verlinkt: ${id}`); }
+    else if (!seen.has(id) && s.verlinkt !== false && !s.eltern && !reg.quellen.some((q) => q.id === id)) { s.verlinkt = false; s.nichtMehrVerlinktSeit = heute; log(`  – aus dem Register entfernt: ${id}`); }
   }
 }
 
@@ -321,4 +325,10 @@ if (problems.length) {
   log(`\n${problems.length} Problem(e):`);
   for (const pr of problems) log('  - ' + pr);
   process.exitCode = 2;
+}
+// Exit 3 = Abruf weitgehend gescheitert (z. B. Netz/Sperre) – Ergebnis nicht veröffentlichen
+const total = Object.values(index.quellen).filter((s) => s.verlinkt !== false).length;
+if (failed.size && failed.size >= Math.max(3, total * 0.25)) {
+  log(`\n✗ ${failed.size} von ${total} Quellen fehlgeschlagen – Lauf gilt als gescheitert.`);
+  process.exitCode = 3;
 }

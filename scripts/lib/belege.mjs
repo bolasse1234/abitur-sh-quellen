@@ -35,7 +35,7 @@ const cache = new Map();
 /** Tolerante Form für PDFs, deren Ligaturen (tt, ti, ft, fi, fl, ff) bei der Textextraktion verloren gehen. */
 function tolerant(s) {
   return norm(s)
-    .replace(/(?<=\p{L})[0-9](?=\p{L})/gu, '') // Ersatzzeichen für verlorene Ligaturen (z. B. „hilfsmi4elfrei“)
+    .replace(/(?<=\p{L})[0-9](?=\s?\p{L})/gu, '') // Ersatzzeichen für verlorene Ligaturen (z. B. „hilfsmi4elfrei“, „Prüfungslehrkra1 aus“)
     .replace(/\s+/g, '')
     .replace(/ffi|ffl|ff|fi|fl|ft|tt|ti|tf/g, '')
     .replace(/-/g, '');

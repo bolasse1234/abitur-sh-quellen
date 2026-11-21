@@ -1,0 +1,10 @@
+[Unit]
+Description=Abitur-SH-Quellenarchiv wöchentlich aktualisieren
+
+[Timer]
+OnCalendar=Mon *-*-* 05:30:00
+RandomizedDelaySec=20min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

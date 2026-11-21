@@ -48,19 +48,25 @@ faecher:
             wert: Hilfsmittelfreier Teil A und Teil B mit komplexen Aufgaben
             zitat: "Die Prüfungsaufgabe besteht aus zwei Teilen: einem hilfsmittelfreien Teil (Teil A) und einem Teil mit komplexen Aufgabenstellungen (Teil B)."
           - thema: Teil A
-            wert: Sechs hilfsmittelfreie Aufgaben (vier Pflicht, zwei aus sechs gewählt), bis zu 110 Minuten inkl. Einlese- und Auswahlzeit
+            wert: Sechs hilfsmittelfreie Aufgaben à 5 Bewertungseinheiten; bis zu 110 Minuten inkl. Einlese- und Auswahlzeit
             zitat: "In der Summe bearbeiten die Prüflinge somit sechs hilfsmittelfreie Aufgaben. Jede Aufgabe des hilfsmittelfreien Teils ist auf 5 Bewertungseinheiten ausgelegt; für den hilfsmittelfreien Teil sind insgesamt bis zu 110 Minuten (inklusive Einlese- und Auswahlzeit) vorgesehen."
+          - thema: Auswahl Teil A
+            wert: Alle vier Aufgaben der Aufgabengruppe 1 sind Pflicht; zwei der sechs Aufgaben der Aufgabengruppe 2 werden gewählt
+            zitat: "Sie sind verpflichtet, in der Prüfung alle vier Aufgaben der Aufgabengruppe 1 zu bearbeiten. Ferner wählen sie zwei der sechs Aufgaben der Aufgabengruppe 2 zur Bearbeitung aus."
           - thema: Teil B
             wert: Drei komplexe Aufgaben (Analysis 30 BE, Analytische Geometrie und Stochastik je 20 BE), zusammen 220 Minuten
             zitat: "Insgesamt bearbeiten die Prüflinge somit drei komplexe Aufgaben. Die Analysisaufgabe ist auf 30 Bewertungseinheiten ausgelegt, die Aufgaben der Analytischen Geometrie und der Stochastik auf jeweils 20 Bewertungseinheiten. Für die drei von den Schülerinnen und Schülern zu bearbeitenden Aufgaben im Teil B sind zusammen 220 Minuten vorgesehen."
           - thema: Auswahl Teil B
             wert: Analysis und Stochastik wählt die Abiturprüfungskommission; zwischen zwei Aufgaben zur Analytischen Geometrie wählen die Prüflinge (+30 Minuten)
-            zitat: "Die zwei Aufgaben des Sachgebiets Analytische Geometrie werden den Prüflingen zur Auswahl vorgelegt. Infolge der Auswahlmöglichkeit im Teil B verlängert sich die Prüfungszeit um 30 Minuten."
+            zitat: "Für den Teil B wählt die Abiturprüfungskommission auf Vorschlag der jeweiligen Prüfungslehrkraft aus den Sachgebieten Analysis und Stochastik jeweils eine der beiden Aufgaben aus, die von den Prüflingen zu bearbeiten ist. Die zwei Aufgaben des Sachgebiets Analytische Geometrie werden den Prüflingen zur Auswahl vorgelegt. Infolge der Auswahlmöglichkeit im Teil B verlängert sich die Prüfungszeit um 30 Minuten."
           - thema: Hilfsmittel
-            wert: Wissenschaftlicher, nicht programmierbarer, nicht graphikfähiger Taschenrechner (alternativ CAS auf Antrag) und ausschließlich die Formelsammlung der KMK
+            wert: Wissenschaftlicher, nicht programmierbarer, nicht grafikfähiger Taschenrechner (Mindestanforderungen laut Dokument Anforderungen_TR_CAS)
             zitat:
               - "Es ist ein wissenschaftlicher, nicht programmierbarer und nicht graphikfähiger Taschenrechner zugelassen, der die in dem Dokument Anforderungen_TR_CAS aufgeführten Mindestanforderungen erfüllt."
               - "Es ist ein wissenschaftlicher, nicht programmierbarer und nicht grafikfähiger Taschenrechner zugelassen"
+          - thema: Formelsammlung
+            wert: Ausschließlich die mathematisch-naturwissenschaftliche Formelsammlung der KMK
+            zitat: "Neben einem Taschenrechner ist ausschließlich die mathematisch-naturwissenschaftliche Formelsammlung der KMK zu verwenden."
       - titel: Schriftliche Prüfung – grundlegendes Anforderungsniveau
         niveau: [gA]
         dok: pruefungsregelungen-mathematik-ga
@@ -123,7 +129,7 @@ faecher:
             wert: 315 Minuten inkl. 15 Minuten Lese- und Auswahlzeit
             zitat: "Die Gesamtzeit der schriftlichen Abiturprüfung umfasst 315 Minuten inklusive einer 15-minütigen Lese- und Auswahlzeit für den Prüfungsteil Schreiben."
           - thema: Aufgabenstellung
-            wert: Prüfungsteil Schreiben dezentral durch die Fachlehrkraft, Sprachmittlung und Sprechen zentral
+            wert: Prüfungsteil Schreiben wird dezentral durch die Fachlehrkraft erstellt
             zitat:
               - "Dieser Prüfungsteil wird gemäß der gültigen 'Checkliste zur Genehmigung' dezentral durch die Fachlehrkraft erstellt"
               - "Die Prüfungsaufgaben für den Prüfungsteil Schreiben werden gemäß gültiger Checkliste zur Genehmigung dezentral durch die Fachlehrkraft erstellt."
@@ -132,7 +138,7 @@ faecher:
         dok: { 2027: eng-kf-pf-hilfsmittel-im, 2028: pruefungsregelungen-eng-kernfach-en, 2029: pruefungsregelungen-eng-kernfach-en }
         fakten:
           - thema: Wörterbücher
-            wert: Ein- und zweisprachiges Wörterbuch für Textaufgabe und Sprachmittlung; kein Thesaurus
+            wert: Ein Thesaurus darf nicht zur Verfügung gestellt werden
             zitat:
               - "Ein Thesaurus darf nicht zur Verfügung gestellt werden (weder in gedruckter Form noch als Funktion eines elektronischen Wörterbuchs)."
               - "Ein Thesaurus darf nicht zur Verfügung gestellt werden."
@@ -280,14 +286,17 @@ faecher:
         dok: pruefungsregelungen-biologie
         fakten:
           - thema: Bearbeitungszeit
-            wert: 300 Minuten inklusive Auswahlzeit; bei fachpraktischem Anteil bis zu 60 Minuten mehr
+            wert: 300 Minuten inklusive Auswahlzeit
             zitat: "Die Dauer der schriftlichen Abiturprüfung umfasst insgesamt 300 Minuten inklusive Auswahlzeit."
+          - thema: Fachpraktischer Anteil
+            wert: Wird eine Aufgabe mit fachpraktischem Anteil gewählt, kann sich die Arbeitszeit um bis zu 60 Minuten erhöhen
+            zitat: "die einen fachpraktischen Anteil hat, kann sich seine individuelle Arbeitszeit um bis zu 60 Minuten erhöhen"
           - thema: Auswahl
             wert: Vier Aufgaben, der Prüfling wählt drei
             zitat: "Unter diesen vier Aufgaben wählt der Prüfling drei Aufgaben als seine Prüfungsaufgabe aus."
           - thema: Hilfsmittel
-            wert: Wissenschaftlicher Taschenrechner, Zeichengeräte, deutsches Wörterbuch
-            zitat: "Ferner sind Zeichengeräte und ein deutsches Wörterbuch zugelassen."
+            wert: Wissenschaftlicher Taschenrechner (Anforderungen wie Mathematik), Zeichengeräte, deutsches Wörterbuch
+            zitat: "wissenschaftlichen Taschenrechner gelöst, der den Anforderungen an die elektronischen Hilfsmittel im Fach Mathematik genügt. Ferner sind Zeichengeräte und ein deutsches Wörterbuch zugelassen."
       - titel: Grundlegendes Niveau (nur Abiturprüfung gemäß APVO-EW, dezentral)
         niveau: [gA]
         dok: pruefungsregelungen-biologie
@@ -308,8 +317,12 @@ faecher:
         dok: pruefungsregelungen-chemie
         fakten:
           - thema: Bearbeitungszeit
-            wert: 300 Minuten inklusive Auswahlzeit; bei fachpraktischem Anteil bis zu 60 Minuten mehr
+            wert: 300 Minuten inklusive Auswahlzeit
             zitat: "Die Dauer der schriftlichen Abiturprüfung umfasst insgesamt 300 Minuten inklusive Auswahlzeit."
+          - thema: Fachpraktischer Anteil
+            wert: Wird eine Aufgabe mit fachpraktischem Anteil gewählt, kann sich die Arbeitszeit um bis zu 60 Minuten erhöhen
+            jahre: [2027]   # in den Regelungen 2028/2029 nicht mehr enthalten (siehe data/hinweise.yaml)
+            zitat: "die einen fachpraktischen Anteil hat, kann sich seine individuelle Arbeitszeit um bis zu 60 Minuten erhöhen"
           - thema: Auswahl
             wert: Vier Aufgaben, jeder Prüfling wählt drei
             zitat: "Unter diesen vier Aufgaben wählt jeder Prüfling drei Aufgaben als seine Prüfungsaufgabe aus."
@@ -341,8 +354,11 @@ faecher:
         dok: pruefungsregelungen-physik
         fakten:
           - thema: Bearbeitungszeit
-            wert: 300 Minuten inklusive Auswahlzeit; bei fachpraktischem Anteil bis zu 60 Minuten mehr
+            wert: 300 Minuten inklusive Auswahlzeit
             zitat: "Die Dauer der schriftlichen Abiturprüfung umfasst insgesamt 300 Minuten inklusive Auswahlzeit."
+          - thema: Fachpraktischer Anteil
+            wert: Wird eine Aufgabe mit fachpraktischem Anteil gewählt, kann sich die Arbeitszeit um bis zu 60 Minuten erhöhen
+            zitat: "die einen fachpraktischen Anteil hat, kann sich seine individuelle Arbeitszeit um bis zu 60 Minuten erhöhen"
           - thema: Auswahl
             wert: Vier Aufgaben, jeder Prüfling wählt drei
             zitat: "Unter diesen vier Aufgaben wählt jeder Prüfling drei Aufgaben als seine Prüfungsaufgabe aus."
@@ -355,7 +371,7 @@ faecher:
         fakten:
           - thema: Geltungsbereich
             wert: Nur in der Abiturprüfung gemäß APVO-EW, mit dezentral gestellten Aufgaben
-            zitat: "Diese wird mit dezentral gestellten Aufgaben durchgeführt."
+            zitat: "In der Abiturprüfung gemäß APVO-EW kann eine schriftliche Prüfung im Fach Physik auf grundlegendem Niveau stattfinden. Diese wird mit dezentral gestellten Aufgaben durchgeführt."
           - thema: Bearbeitungszeit
             wert: 255 Minuten inklusive Auswahlzeit
             zitat: "Die Dauer der schriftlichen Abiturprüfung umfasst insgesamt 255 Minuten inklusive Auswahlzeit."
@@ -448,7 +464,7 @@ faecher:
         fakten:
           - thema: Bearbeitungszeit
             wert: 300 Minuten; bei genehmigtem Antrag höchstens 330 Minuten
-            zitat: "Die schriftliche Abiturprüfung auf erhöhtem Anforderungsniveau dauert 300 Minuten."
+            zitat: "Die schriftliche Abiturprüfung auf erhöhtem Anforderungsniveau dauert 300 Minuten. Wurde einem Antrag auf Arbeitszeitverlängerung durch den Genehmigenden stattgegeben, so verlängert sich die Arbeitszeit entsprechend auf höchstens 330 Minuten."
           - thema: Aufbau
             wert: Zwei genehmigte Aufgaben, alle werden bearbeitet
             zitat: "Die Schule erhält eine Prüfungsaufgabe, die aus zwei genehmigten Aufgaben besteht und den Prüflingen schriftlich vorgelegt wird. Die Schülerinnen und Schüler bearbeiten alle vorgelegten Aufgaben."
@@ -504,5 +520,5 @@ faecher:
             wert: 300 Minuten
             zitat: "In der schriftlichen Prüfung auf erhöhtem Anforderungsniveau beträgt die Bearbeitungszeit 300 Minuten."
           - thema: Aufgabenstellung
-            wert: Dezentral; zwei Aufgabenvorschläge der Sportlehrkraft
-            zitat: "Die schriftliche Abiturprüfung findet dezentral statt."
+            wert: Dezentral; die Sportlehrkraft reicht zwei Aufgabenvorschläge ein
+            zitat: "Die schriftliche Abiturprüfung findet dezentral statt. Zu diesem Zweck reicht die zuständige Sportlehrkraft der Schule mit Sportprofil auf dem Dienstweg zwei Aufgabenvorschläge"

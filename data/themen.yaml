@@ -41,7 +41,7 @@ themen:
       - wert: "Zentral geprüft: Deutsch, Mathematik, Englisch, Französisch, Spanisch, Latein, Dänisch, Biologie, Chemie, Physik"
         zitat: "Zu den zentral geprüften Fächern zählen Deutsch, Mathematik, Englisch, Französisch, Spanisch, Latein, Dänisch, Biologie, Chemie und Physik."
         quelle: za-aufgaben
-      - wert: Aufgaben aus dem Gemeinsamen Abituraufgabenpool der Länder (IQB) in Chemie und Physik seit 2025, in Biologie seit 2026
+      - wert: Aufgaben aus den Gemeinsamen Abituraufgabenpools der Länder in Chemie und Physik seit 2025, in Biologie seit 2026
         zitat: "werden seit der Abiturprüfung 2025 in den Fächern Chemie und Physik und seit der Abiturprüfung 2026 ebenfalls im Fach Biologie Aufgaben aus den Gemeinsamen Abituraufgabenpools der Länder in der Abiturprüfung an allgemeinbildenden Schulen in Schleswig-Holstein zentral gestellt."
         quelle: za-allg
 
@@ -88,7 +88,11 @@ themen:
         zitat: "Die mündliche Prüfung wird als Einzelprüfung durchgeführt. Sie dauert in der Regel 20 Minuten."
         quelle: oapvo
         teil: "§ 24"
-      - wert: Zwei Aufgaben, 30 Minuten Vorbereitungszeit
+      - wert: Zwei Aufgaben, die zur Vorbereitung schriftlich vorgelegt werden
+        zitat: "Die mündliche Prüfung besteht aus zwei Aufgaben, die dem Prüfling zur Vorbereitung schriftlich vorgelegt werden."
+        quelle: oapvo
+        teil: "§ 24"
+      - wert: Vorbereitungszeit 30 Minuten
         zitat: "Die Vorbereitungszeit beträgt 30 Minuten."
         quelle: oapvo
         teil: "§ 24"
